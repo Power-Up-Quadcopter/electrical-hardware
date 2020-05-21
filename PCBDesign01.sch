@@ -1417,53 +1417,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <library name="Capacitor" urn="urn:adsk.eagle:library:16290819">
 <description>&lt;B&gt;Capacitors - Fixed, Variable, Trimmers</description>
 <packages>
-<package name="CAPC1005X60" urn="urn:adsk.eagle:footprint:16290849/1" library_version="3">
-<description>Chip, 1.00 X 0.50 X 0.60 mm body
-&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
-<wire x1="0.55" y1="0.6286" x2="-0.55" y2="0.6286" width="0.12" layer="21"/>
-<wire x1="0.55" y1="-0.6286" x2="-0.55" y2="-0.6286" width="0.12" layer="21"/>
-<wire x1="0.55" y1="-0.3" x2="-0.55" y2="-0.3" width="0.12" layer="51"/>
-<wire x1="-0.55" y1="-0.3" x2="-0.55" y2="0.3" width="0.12" layer="51"/>
-<wire x1="-0.55" y1="0.3" x2="0.55" y2="0.3" width="0.12" layer="51"/>
-<wire x1="0.55" y1="0.3" x2="0.55" y2="-0.3" width="0.12" layer="51"/>
-<smd name="1" x="-0.4846" y="0" dx="0.56" dy="0.6291" layer="1"/>
-<smd name="2" x="0.4846" y="0" dx="0.56" dy="0.6291" layer="1"/>
-<text x="0" y="1.2636" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2636" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CAPC1110X102" urn="urn:adsk.eagle:footprint:16290845/1" library_version="3">
-<description>Chip, 1.17 X 1.02 X 1.02 mm body
-&lt;p&gt;Chip package with body size 1.17 X 1.02 X 1.02 mm&lt;/p&gt;</description>
-<wire x1="0.66" y1="0.9552" x2="-0.66" y2="0.9552" width="0.12" layer="21"/>
-<wire x1="0.66" y1="-0.9552" x2="-0.66" y2="-0.9552" width="0.12" layer="21"/>
-<wire x1="0.66" y1="-0.635" x2="-0.66" y2="-0.635" width="0.12" layer="51"/>
-<wire x1="-0.66" y1="-0.635" x2="-0.66" y2="0.635" width="0.12" layer="51"/>
-<wire x1="-0.66" y1="0.635" x2="0.66" y2="0.635" width="0.12" layer="51"/>
-<wire x1="0.66" y1="0.635" x2="0.66" y2="-0.635" width="0.12" layer="51"/>
-<smd name="1" x="-0.5388" y="0" dx="0.6626" dy="1.2823" layer="1"/>
-<smd name="2" x="0.5388" y="0" dx="0.6626" dy="1.2823" layer="1"/>
-<text x="0" y="1.5902" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.5902" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CAPC1608X85" urn="urn:adsk.eagle:footprint:16290847/1" library_version="3">
-<description>Chip, 1.60 X 0.80 X 0.85 mm body
-&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.85 mm&lt;/p&gt;</description>
-<wire x1="0.875" y1="0.7991" x2="-0.875" y2="0.7991" width="0.12" layer="21"/>
-<wire x1="0.875" y1="-0.7991" x2="-0.875" y2="-0.7991" width="0.12" layer="21"/>
-<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.12" layer="51"/>
-<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.475" width="0.12" layer="51"/>
-<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.12" layer="51"/>
-<wire x1="0.875" y1="0.475" x2="0.875" y2="-0.475" width="0.12" layer="51"/>
-<smd name="1" x="-0.7746" y="0" dx="0.9209" dy="0.9702" layer="1"/>
-<smd name="2" x="0.7746" y="0" dx="0.9209" dy="0.9702" layer="1"/>
-<text x="0" y="1.4341" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.4341" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CAPC2012X110" urn="urn:adsk.eagle:footprint:16290848/1" library_version="3">
+<package name="CAPC2012X110" urn="urn:adsk.eagle:footprint:16290848/2" library_version="4">
 <description>Chip, 2.00 X 1.25 X 1.10 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.127" layer="21"/>
 <wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
 <wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
 <wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
@@ -1473,11 +1431,53 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPC3216X135" urn="urn:adsk.eagle:footprint:16290836/1" library_version="3">
+<package name="CAPC1005X60" urn="urn:adsk.eagle:footprint:16290849/2" library_version="4">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<wire x1="0.55" y1="0.6286" x2="-0.55" y2="0.6286" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.6286" x2="-0.55" y2="-0.6286" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.3" x2="-0.55" y2="-0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="-0.3" x2="-0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="0.3" x2="0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="0.55" y1="0.3" x2="0.55" y2="-0.3" width="0.12" layer="51"/>
+<smd name="1" x="-0.4846" y="0" dx="0.56" dy="0.6291" layer="1"/>
+<smd name="2" x="0.4846" y="0" dx="0.56" dy="0.6291" layer="1"/>
+<text x="0" y="1.2636" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.2636" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC1110X102" urn="urn:adsk.eagle:footprint:16290845/2" library_version="4">
+<description>Chip, 1.17 X 1.02 X 1.02 mm body
+&lt;p&gt;Chip package with body size 1.17 X 1.02 X 1.02 mm&lt;/p&gt;</description>
+<wire x1="0.66" y1="0.9552" x2="-0.66" y2="0.9552" width="0.127" layer="21"/>
+<wire x1="0.66" y1="-0.9552" x2="-0.66" y2="-0.9552" width="0.127" layer="21"/>
+<wire x1="0.66" y1="-0.635" x2="-0.66" y2="-0.635" width="0.12" layer="51"/>
+<wire x1="-0.66" y1="-0.635" x2="-0.66" y2="0.635" width="0.12" layer="51"/>
+<wire x1="-0.66" y1="0.635" x2="0.66" y2="0.635" width="0.12" layer="51"/>
+<wire x1="0.66" y1="0.635" x2="0.66" y2="-0.635" width="0.12" layer="51"/>
+<smd name="1" x="-0.5388" y="0" dx="0.6626" dy="1.2823" layer="1"/>
+<smd name="2" x="0.5388" y="0" dx="0.6626" dy="1.2823" layer="1"/>
+<text x="0" y="1.5902" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5902" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC1608X85" urn="urn:adsk.eagle:footprint:16290847/2" library_version="4">
+<description>Chip, 1.60 X 0.80 X 0.85 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.85 mm&lt;/p&gt;</description>
+<wire x1="0.875" y1="0.7991" x2="-0.875" y2="0.7991" width="0.127" layer="21"/>
+<wire x1="0.875" y1="-0.7991" x2="-0.875" y2="-0.7991" width="0.127" layer="21"/>
+<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.875" y1="0.475" x2="0.875" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.7746" y="0" dx="0.9209" dy="0.9702" layer="1"/>
+<smd name="2" x="0.7746" y="0" dx="0.9209" dy="0.9702" layer="1"/>
+<text x="0" y="1.4341" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4341" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC3216X135" urn="urn:adsk.eagle:footprint:16290836/2" library_version="4">
 <description>Chip, 3.20 X 1.60 X 1.35 mm body
 &lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.35 mm&lt;/p&gt;</description>
-<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.12" layer="21"/>
-<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
@@ -1487,10 +1487,10 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPC3225X135" urn="urn:adsk.eagle:footprint:16290843/1" library_version="3">
+<package name="CAPC3225X135" urn="urn:adsk.eagle:footprint:16290843/2" library_version="4">
 <description>Chip, 3.20 X 2.50 X 1.35 mm body
 &lt;p&gt;Chip package with body size 3.20 X 2.50 X 1.35 mm&lt;/p&gt;</description>
-<wire x1="1.7" y1="1.6717" x2="-1.7" y2="1.6717" width="0.12" layer="21"/>
+<wire x1="1.7" y1="1.6717" x2="-1.7" y2="1.6717" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-1.6717" x2="-1.7" y2="-1.6717" width="0.12" layer="21"/>
 <wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.12" layer="51"/>
@@ -1501,11 +1501,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="2.3067" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.3067" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPC4532X135" urn="urn:adsk.eagle:footprint:16290841/1" library_version="3">
+<package name="CAPC4532X135" urn="urn:adsk.eagle:footprint:16290841/2" library_version="4">
 <description>Chip, 4.50 X 3.20 X 1.35 mm body
 &lt;p&gt;Chip package with body size 4.50 X 3.20 X 1.35 mm&lt;/p&gt;</description>
-<wire x1="2.4" y1="2.0217" x2="-2.4" y2="2.0217" width="0.12" layer="21"/>
-<wire x1="2.4" y1="-2.0217" x2="-2.4" y2="-2.0217" width="0.12" layer="21"/>
+<wire x1="2.4" y1="2.0217" x2="-2.4" y2="2.0217" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2.0217" x2="-2.4" y2="-2.0217" width="0.127" layer="21"/>
 <wire x1="2.4" y1="-1.7" x2="-2.4" y2="-1.7" width="0.12" layer="51"/>
 <wire x1="-2.4" y1="-1.7" x2="-2.4" y2="1.7" width="0.12" layer="51"/>
 <wire x1="-2.4" y1="1.7" x2="2.4" y2="1.7" width="0.12" layer="51"/>
@@ -1515,11 +1515,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="2.6567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.6567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPM3216X180" urn="urn:adsk.eagle:footprint:16290835/1" library_version="3">
+<package name="CAPM3216X180" urn="urn:adsk.eagle:footprint:16290835/2" library_version="4">
 <description>Molded Body, 3.20 X 1.60 X 1.80 mm body
 &lt;p&gt;Molded Body package with body size 3.20 X 1.60 X 1.80 mm&lt;/p&gt;</description>
-<wire x1="-1.7" y1="0.9084" x2="1.7" y2="0.9084" width="0.12" layer="21"/>
-<wire x1="-1.7" y1="-0.9084" x2="1.7" y2="-0.9084" width="0.12" layer="21"/>
+<wire x1="-1.7" y1="0.9084" x2="1.7" y2="0.9084" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-0.9084" x2="1.7" y2="-0.9084" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
@@ -1529,11 +1529,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="1.5434" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.5434" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPM3528X210" urn="urn:adsk.eagle:footprint:16290844/1" library_version="3">
+<package name="CAPM3528X210" urn="urn:adsk.eagle:footprint:16290844/2" library_version="4">
 <description>Molded Body, 3.50 X 2.80 X 2.10 mm body
 &lt;p&gt;Molded Body package with body size 3.50 X 2.80 X 2.10 mm&lt;/p&gt;</description>
-<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.12" layer="21"/>
-<wire x1="-1.85" y1="-1.5" x2="1.85" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="-1.5" x2="1.85" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.12" layer="51"/>
 <wire x1="-1.85" y1="-1.5" x2="-1.85" y2="1.5" width="0.12" layer="51"/>
 <wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.12" layer="51"/>
@@ -1543,11 +1543,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="2.135" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPM6032X280" urn="urn:adsk.eagle:footprint:16290839/1" library_version="3">
+<package name="CAPM6032X280" urn="urn:adsk.eagle:footprint:16290839/2" library_version="4">
 <description>Molded Body, 6.00 X 3.20 X 2.80 mm body
 &lt;p&gt;Molded Body package with body size 6.00 X 3.20 X 2.80 mm&lt;/p&gt;</description>
-<wire x1="-3.15" y1="1.75" x2="3.15" y2="1.75" width="0.12" layer="21"/>
-<wire x1="-3.15" y1="-1.75" x2="3.15" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-3.15" y1="1.75" x2="3.15" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-1.75" x2="3.15" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="3.15" y1="-1.75" x2="-3.15" y2="-1.75" width="0.12" layer="51"/>
 <wire x1="-3.15" y1="-1.75" x2="-3.15" y2="1.75" width="0.12" layer="51"/>
 <wire x1="-3.15" y1="1.75" x2="3.15" y2="1.75" width="0.12" layer="51"/>
@@ -1557,11 +1557,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="2.385" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.385" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPM7343X310" urn="urn:adsk.eagle:footprint:16290840/1" library_version="3">
+<package name="CAPM7343X310" urn="urn:adsk.eagle:footprint:16290840/2" library_version="4">
 <description>Molded Body, 7.30 X 4.30 X 3.10 mm body
 &lt;p&gt;Molded Body package with body size 7.30 X 4.30 X 3.10 mm&lt;/p&gt;</description>
-<wire x1="-3.8" y1="2.3" x2="3.8" y2="2.3" width="0.12" layer="21"/>
-<wire x1="-3.8" y1="-2.3" x2="3.8" y2="-2.3" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="2.3" x2="3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-2.3" x2="3.8" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="3.8" y1="-2.3" x2="-3.8" y2="-2.3" width="0.12" layer="51"/>
 <wire x1="-3.8" y1="-2.3" x2="-3.8" y2="2.3" width="0.12" layer="51"/>
 <wire x1="-3.8" y1="2.3" x2="3.8" y2="2.3" width="0.12" layer="51"/>
@@ -1571,11 +1571,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="2.935" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.935" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPC4564X110" urn="urn:adsk.eagle:footprint:16290837/1" library_version="3">
+<package name="CAPC4564X110" urn="urn:adsk.eagle:footprint:16290837/2" library_version="4">
 <description>Chip, 4.50 X 6.40 X 1.10 mm body
 &lt;p&gt;Chip package with body size 4.50 X 6.40 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="2.4" y1="3.7179" x2="-2.4" y2="3.7179" width="0.12" layer="21"/>
-<wire x1="2.4" y1="-3.7179" x2="-2.4" y2="-3.7179" width="0.12" layer="21"/>
+<wire x1="2.4" y1="3.7179" x2="-2.4" y2="3.7179" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-3.7179" x2="-2.4" y2="-3.7179" width="0.127" layer="21"/>
 <wire x1="2.4" y1="-3.4" x2="-2.4" y2="-3.4" width="0.12" layer="51"/>
 <wire x1="-2.4" y1="-3.4" x2="-2.4" y2="3.4" width="0.12" layer="51"/>
 <wire x1="-2.4" y1="3.4" x2="2.4" y2="3.4" width="0.12" layer="51"/>
@@ -1585,20 +1585,20 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <text x="0" y="4.3529" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.3529" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPRD550W60D1025H1250B" urn="urn:adsk.eagle:footprint:16290829/1" library_version="3">
+<package name="CAPRD550W60D1025H1250B" urn="urn:adsk.eagle:footprint:16290829/2" library_version="4">
 <description>Radial Non-Polarized Capacitor, 5.50 mm pitch, 10.25 mm body diameter, 12.50 mm body height
 &lt;p&gt;Radial Non-Polarized Capacitor package with 5.50 mm pitch (lead spacing), 0.60 mm lead diameter, 10.25 mm body diameter and 12.50 mm body height&lt;/p&gt;</description>
-<circle x="0" y="0" radius="5.25" width="0.12" layer="21"/>
+<circle x="0" y="0" radius="5.25" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="5.25" width="0.12" layer="51"/>
 <pad name="1" x="-2.75" y="0" drill="0.8" diameter="1.4"/>
 <pad name="2" x="2.75" y="0" drill="0.8" diameter="1.4"/>
 <text x="0" y="5.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPRD2261W240D5080H5555B" urn="urn:adsk.eagle:footprint:16290850/1" library_version="3">
+<package name="CAPRD2261W240D5080H5555B" urn="urn:adsk.eagle:footprint:16290850/2" library_version="4">
 <description>Radial Non-Polarized Capacitor, 22.61 mm pitch, 50.80 mm body diameter, 55.55 mm body height
 &lt;p&gt;Radial Non-Polarized Capacitor package with 22.61 mm pitch (lead spacing), 2.40 mm lead diameter, 50.80 mm body diameter and 55.55 mm body height&lt;/p&gt;</description>
-<circle x="0" y="0" radius="25.79" width="0.12" layer="21"/>
+<circle x="0" y="0" radius="25.79" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="25.79" width="0.12" layer="51"/>
 <pad name="1" x="-11.305" y="0" drill="2.6" diameter="3.9"/>
 <pad name="2" x="11.305" y="0" drill="2.6" diameter="3.9"/>
@@ -1607,98 +1607,98 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 </package>
 </packages>
 <packages3d>
-<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:16290895/1" type="model" library_version="3">
-<description>Chip, 1.00 X 0.50 X 0.60 mm body
-&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC1005X60"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC1110X102" urn="urn:adsk.eagle:package:16290904/1" type="model" library_version="3">
-<description>Chip, 1.17 X 1.02 X 1.02 mm body
-&lt;p&gt;Chip package with body size 1.17 X 1.02 X 1.02 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC1110X102"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC1608X85" urn="urn:adsk.eagle:package:16290898/1" type="model" library_version="3">
-<description>Chip, 1.60 X 0.80 X 0.85 mm body
-&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.85 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC1608X85"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC2012X110" urn="urn:adsk.eagle:package:16290897/1" type="model" library_version="3">
+<package3d name="CAPC2012X110" urn="urn:adsk.eagle:package:16290897/2" type="model" library_version="4">
 <description>Chip, 2.00 X 1.25 X 1.10 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC2012X110"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC3216X135" urn="urn:adsk.eagle:package:16290893/1" type="model" library_version="3">
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:16290895/2" type="model" library_version="4">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1005X60"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1110X102" urn="urn:adsk.eagle:package:16290904/2" type="model" library_version="4">
+<description>Chip, 1.17 X 1.02 X 1.02 mm body
+&lt;p&gt;Chip package with body size 1.17 X 1.02 X 1.02 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1110X102"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1608X85" urn="urn:adsk.eagle:package:16290898/2" type="model" library_version="4">
+<description>Chip, 1.60 X 0.80 X 0.85 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.85 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1608X85"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC3216X135" urn="urn:adsk.eagle:package:16290893/2" type="model" library_version="4">
 <description>Chip, 3.20 X 1.60 X 1.35 mm body
 &lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.35 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC3216X135"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC3225X135" urn="urn:adsk.eagle:package:16290903/1" type="model" library_version="3">
+<package3d name="CAPC3225X135" urn="urn:adsk.eagle:package:16290903/2" type="model" library_version="4">
 <description>Chip, 3.20 X 2.50 X 1.35 mm body
 &lt;p&gt;Chip package with body size 3.20 X 2.50 X 1.35 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC3225X135"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC4532X135" urn="urn:adsk.eagle:package:16290900/1" type="model" library_version="3">
+<package3d name="CAPC4532X135" urn="urn:adsk.eagle:package:16290900/2" type="model" library_version="4">
 <description>Chip, 4.50 X 3.20 X 1.35 mm body
 &lt;p&gt;Chip package with body size 4.50 X 3.20 X 1.35 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC4532X135"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPM3216X180" urn="urn:adsk.eagle:package:16290894/1" type="model" library_version="3">
+<package3d name="CAPM3216X180" urn="urn:adsk.eagle:package:16290894/2" type="model" library_version="4">
 <description>Molded Body, 3.20 X 1.60 X 1.80 mm body
 &lt;p&gt;Molded Body package with body size 3.20 X 1.60 X 1.80 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPM3216X180"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPM3528X210" urn="urn:adsk.eagle:package:16290902/1" type="model" library_version="3">
+<package3d name="CAPM3528X210" urn="urn:adsk.eagle:package:16290902/2" type="model" library_version="4">
 <description>Molded Body, 3.50 X 2.80 X 2.10 mm body
 &lt;p&gt;Molded Body package with body size 3.50 X 2.80 X 2.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPM3528X210"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPM6032X280" urn="urn:adsk.eagle:package:16290896/1" type="model" library_version="3">
+<package3d name="CAPM6032X280" urn="urn:adsk.eagle:package:16290896/2" type="model" library_version="4">
 <description>Molded Body, 6.00 X 3.20 X 2.80 mm body
 &lt;p&gt;Molded Body package with body size 6.00 X 3.20 X 2.80 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPM6032X280"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPM7343X310" urn="urn:adsk.eagle:package:16290891/1" type="model" library_version="3">
+<package3d name="CAPM7343X310" urn="urn:adsk.eagle:package:16290891/2" type="model" library_version="4">
 <description>Molded Body, 7.30 X 4.30 X 3.10 mm body
 &lt;p&gt;Molded Body package with body size 7.30 X 4.30 X 3.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPM7343X310"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC4564X110" urn="urn:adsk.eagle:package:16290887/1" type="model" library_version="3">
+<package3d name="CAPC4564X110L" urn="urn:adsk.eagle:package:16290887/3" type="model" library_version="4">
 <description>Chip, 4.50 X 6.40 X 1.10 mm body
 &lt;p&gt;Chip package with body size 4.50 X 6.40 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC4564X110"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPRD550W60D1025H1250B" urn="urn:adsk.eagle:package:16290858/1" type="model" library_version="3">
+<package3d name="CAPRD550W60D1025H1250B" urn="urn:adsk.eagle:package:16290858/2" type="model" library_version="4">
 <description>Radial Non-Polarized Capacitor, 5.50 mm pitch, 10.25 mm body diameter, 12.50 mm body height
 &lt;p&gt;Radial Non-Polarized Capacitor package with 5.50 mm pitch (lead spacing), 0.60 mm lead diameter, 10.25 mm body diameter and 12.50 mm body height&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPRD550W60D1025H1250B"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPRD2261W240D5080H5555B" urn="urn:adsk.eagle:package:16290864/1" type="model" library_version="3">
+<package3d name="CAPRD2261W240D5080H5555B" urn="urn:adsk.eagle:package:16290864/2" type="model" library_version="4">
 <description>Radial Non-Polarized Capacitor, 22.61 mm pitch, 50.80 mm body diameter, 55.55 mm body height
 &lt;p&gt;Radial Non-Polarized Capacitor package with 22.61 mm pitch (lead spacing), 2.40 mm lead diameter, 50.80 mm body diameter and 55.55 mm body height&lt;/p&gt;</description>
 <packageinstances>
@@ -1722,7 +1722,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C" urn="urn:adsk.eagle:component:16290909/3" library_version="3">
+<deviceset name="C" urn="urn:adsk.eagle:component:16290909/4" prefix="C" uservalue="yes" library_version="4">
 <description>&lt;B&gt;Capacitor - Generic</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
@@ -1734,7 +1734,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290895/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290895/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1759,7 +1759,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290904/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290904/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1784,7 +1784,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290898/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290898/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1809,7 +1809,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290897/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290897/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1834,7 +1834,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290893/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290893/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1859,7 +1859,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290903/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290903/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1884,7 +1884,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290900/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290900/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1909,7 +1909,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290894/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290894/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1934,7 +1934,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290902/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290902/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1959,7 +1959,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290896/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290896/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -1984,7 +1984,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290891/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290891/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2009,7 +2009,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290887/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290887/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2034,7 +2034,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290858/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290858/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2059,7 +2059,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16290864/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16290864/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2134,39 +2134,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Resistor" urn="urn:adsk.eagle:library:16378527">
 <description>&lt;B&gt;Resistors, Potentiometers, TrimPot</description>
 <packages>
-<package name="RESC1005X40" urn="urn:adsk.eagle:footprint:16378540/1" library_version="4">
-<description>Chip, 1.05 X 0.54 X 0.40 mm body
-&lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
-<wire x1="0.55" y1="0.636" x2="-0.55" y2="0.636" width="0.12" layer="21"/>
-<wire x1="0.55" y1="-0.636" x2="-0.55" y2="-0.636" width="0.12" layer="21"/>
-<wire x1="0.55" y1="-0.3" x2="-0.55" y2="-0.3" width="0.12" layer="51"/>
-<wire x1="-0.55" y1="-0.3" x2="-0.55" y2="0.3" width="0.12" layer="51"/>
-<wire x1="-0.55" y1="0.3" x2="0.55" y2="0.3" width="0.12" layer="51"/>
-<wire x1="0.55" y1="0.3" x2="0.55" y2="-0.3" width="0.12" layer="51"/>
-<smd name="1" x="-0.5075" y="0" dx="0.5351" dy="0.644" layer="1"/>
-<smd name="2" x="0.5075" y="0" dx="0.5351" dy="0.644" layer="1"/>
-<text x="0" y="1.271" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.271" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="RESC1608X60" urn="urn:adsk.eagle:footprint:16378537/1" library_version="4">
-<description>Chip, 1.60 X 0.82 X 0.60 mm body
-&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
-<wire x1="0.85" y1="0.8009" x2="-0.85" y2="0.8009" width="0.12" layer="21"/>
-<wire x1="0.85" y1="-0.8009" x2="-0.85" y2="-0.8009" width="0.12" layer="21"/>
-<wire x1="0.85" y1="-0.475" x2="-0.85" y2="-0.475" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="-0.475" x2="-0.85" y2="0.475" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="0.475" x2="0.85" y2="0.475" width="0.12" layer="51"/>
-<wire x1="0.85" y1="0.475" x2="0.85" y2="-0.475" width="0.12" layer="51"/>
-<smd name="1" x="-0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
-<smd name="2" x="0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
-<text x="0" y="1.4359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.4359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="RESC2012X65" urn="urn:adsk.eagle:footprint:16378532/1" library_version="4">
+<package name="RESC2012X65" urn="urn:adsk.eagle:footprint:16378532/2" library_version="5">
 <description>Chip, 2.00 X 1.25 X 0.65 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 0.65 mm&lt;/p&gt;</description>
-<wire x1="1.075" y1="1.0241" x2="-1.075" y2="1.0241" width="0.12" layer="21"/>
-<wire x1="1.075" y1="-1.0241" x2="-1.075" y2="-1.0241" width="0.12" layer="21"/>
+<wire x1="1.075" y1="1.0241" x2="-1.075" y2="1.0241" width="0.127" layer="21"/>
+<wire x1="1.075" y1="-1.0241" x2="-1.075" y2="-1.0241" width="0.127" layer="21"/>
 <wire x1="1.075" y1="-0.7" x2="-1.075" y2="-0.7" width="0.12" layer="51"/>
 <wire x1="-1.075" y1="-0.7" x2="-1.075" y2="0.7" width="0.12" layer="51"/>
 <wire x1="-1.075" y1="0.7" x2="1.075" y2="0.7" width="0.12" layer="51"/>
@@ -2176,11 +2148,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.6591" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6591" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC3216X70" urn="urn:adsk.eagle:footprint:16378539/1" library_version="4">
+<package name="RESC1005X40" urn="urn:adsk.eagle:footprint:16378540/2" library_version="5">
+<description>Chip, 1.05 X 0.54 X 0.40 mm body
+&lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
+<wire x1="0.55" y1="0.636" x2="-0.55" y2="0.636" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.636" x2="-0.55" y2="-0.636" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.3" x2="-0.55" y2="-0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="-0.3" x2="-0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="0.3" x2="0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="0.55" y1="0.3" x2="0.55" y2="-0.3" width="0.12" layer="51"/>
+<smd name="1" x="-0.5075" y="0" dx="0.5351" dy="0.644" layer="1"/>
+<smd name="2" x="0.5075" y="0" dx="0.5351" dy="0.644" layer="1"/>
+<text x="0" y="1.271" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.271" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1608X60" urn="urn:adsk.eagle:footprint:16378537/2" library_version="5">
+<description>Chip, 1.60 X 0.82 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
+<wire x1="0.85" y1="0.8009" x2="-0.85" y2="0.8009" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.8009" x2="-0.85" y2="-0.8009" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.475" x2="-0.85" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-0.475" x2="-0.85" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="0.475" x2="0.85" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.85" y1="0.475" x2="0.85" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
+<smd name="2" x="0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
+<text x="0" y="1.4359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC3216X70" urn="urn:adsk.eagle:footprint:16378539/2" library_version="5">
 <description>Chip, 3.20 X 1.60 X 0.70 mm body
 &lt;p&gt;Chip package with body size 3.20 X 1.60 X 0.70 mm&lt;/p&gt;</description>
-<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.12" layer="21"/>
-<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
@@ -2190,11 +2190,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC3224X71" urn="urn:adsk.eagle:footprint:16378536/1" library_version="4">
+<package name="RESC3224X71" urn="urn:adsk.eagle:footprint:16378536/2" library_version="5">
 <description>Chip, 3.20 X 2.49 X 0.71 mm body
 &lt;p&gt;Chip package with body size 3.20 X 2.49 X 0.71 mm&lt;/p&gt;</description>
-<wire x1="1.675" y1="1.6441" x2="-1.675" y2="1.6441" width="0.12" layer="21"/>
-<wire x1="1.675" y1="-1.6441" x2="-1.675" y2="-1.6441" width="0.12" layer="21"/>
+<wire x1="1.675" y1="1.6441" x2="-1.675" y2="1.6441" width="0.127" layer="21"/>
+<wire x1="1.675" y1="-1.6441" x2="-1.675" y2="-1.6441" width="0.127" layer="21"/>
 <wire x1="1.675" y1="-1.32" x2="-1.675" y2="-1.32" width="0.12" layer="51"/>
 <wire x1="-1.675" y1="-1.32" x2="-1.675" y2="1.32" width="0.12" layer="51"/>
 <wire x1="-1.675" y1="1.32" x2="1.675" y2="1.32" width="0.12" layer="51"/>
@@ -2204,11 +2204,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.2791" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2791" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC5025X71" urn="urn:adsk.eagle:footprint:16378538/1" library_version="4">
+<package name="RESC5025X71" urn="urn:adsk.eagle:footprint:16378538/2" library_version="5">
 <description>Chip, 5.00 X 2.50 X 0.71 mm body
 &lt;p&gt;Chip package with body size 5.00 X 2.50 X 0.71 mm&lt;/p&gt;</description>
-<wire x1="2.575" y1="1.6491" x2="-2.575" y2="1.6491" width="0.12" layer="21"/>
-<wire x1="2.575" y1="-1.6491" x2="-2.575" y2="-1.6491" width="0.12" layer="21"/>
+<wire x1="2.575" y1="1.6491" x2="-2.575" y2="1.6491" width="0.127" layer="21"/>
+<wire x1="2.575" y1="-1.6491" x2="-2.575" y2="-1.6491" width="0.127" layer="21"/>
 <wire x1="2.575" y1="-1.325" x2="-2.575" y2="-1.325" width="0.12" layer="51"/>
 <wire x1="-2.575" y1="-1.325" x2="-2.575" y2="1.325" width="0.12" layer="51"/>
 <wire x1="-2.575" y1="1.325" x2="2.575" y2="1.325" width="0.12" layer="51"/>
@@ -2218,11 +2218,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.2841" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2841" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC6332X71" urn="urn:adsk.eagle:footprint:16378533/1" library_version="4">
+<package name="RESC6332X71" urn="urn:adsk.eagle:footprint:16378533/2" library_version="5">
 <description>Chip, 6.30 X 3.20 X 0.71 mm body
 &lt;p&gt;Chip package with body size 6.30 X 3.20 X 0.71 mm&lt;/p&gt;</description>
-<wire x1="3.225" y1="1.9991" x2="-3.225" y2="1.9991" width="0.12" layer="21"/>
-<wire x1="3.225" y1="-1.9991" x2="-3.225" y2="-1.9991" width="0.12" layer="21"/>
+<wire x1="3.225" y1="1.9991" x2="-3.225" y2="1.9991" width="0.127" layer="21"/>
+<wire x1="3.225" y1="-1.9991" x2="-3.225" y2="-1.9991" width="0.127" layer="21"/>
 <wire x1="3.225" y1="-1.675" x2="-3.225" y2="-1.675" width="0.12" layer="51"/>
 <wire x1="-3.225" y1="-1.675" x2="-3.225" y2="1.675" width="0.12" layer="51"/>
 <wire x1="-3.225" y1="1.675" x2="3.225" y2="1.675" width="0.12" layer="51"/>
@@ -2232,15 +2232,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.6341" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.6341" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:footprint:16378542/1" library_version="4">
+<package name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:footprint:16378542/2" library_version="5">
 <description>AXIAL Resistor, 11.76 mm pitch, 8.5 mm body length, 2.5 mm body diameter
 &lt;p&gt;AXIAL Resistor package with 11.76 mm pitch, 0.63 mm lead diameter, 8.5 mm body length and 2.5 mm body diameter&lt;/p&gt;</description>
-<wire x1="-4.25" y1="1.25" x2="-4.25" y2="-1.25" width="0.12" layer="21"/>
-<wire x1="-4.25" y1="-1.25" x2="4.25" y2="-1.25" width="0.12" layer="21"/>
-<wire x1="4.25" y1="-1.25" x2="4.25" y2="1.25" width="0.12" layer="21"/>
-<wire x1="4.25" y1="1.25" x2="-4.25" y2="1.25" width="0.12" layer="21"/>
-<wire x1="-4.25" y1="0" x2="-4.911" y2="0" width="0.12" layer="21"/>
-<wire x1="4.25" y1="0" x2="4.911" y2="0" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="1.25" x2="-4.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-1.25" x2="4.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-1.25" x2="4.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="4.25" y1="1.25" x2="-4.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="0" x2="-4.911" y2="0" width="0.127" layer="21"/>
+<wire x1="4.25" y1="0" x2="4.911" y2="0" width="0.127" layer="21"/>
 <wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="51"/>
 <wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="51"/>
 <wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="51"/>
@@ -2250,11 +2250,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF3515" urn="urn:adsk.eagle:footprint:16378534/1" library_version="4">
+<package name="RESMELF3515" urn="urn:adsk.eagle:footprint:16378534/2" library_version="5">
 <description>MELF, 3.50 mm length, 1.52 mm diameter
 &lt;p&gt;MELF Resistor package with 3.50 mm length and 1.52 mm diameter&lt;/p&gt;</description>
-<wire x1="1.105" y1="1.1825" x2="-1.105" y2="1.1825" width="0.12" layer="21"/>
-<wire x1="-1.105" y1="-1.1825" x2="1.105" y2="-1.1825" width="0.12" layer="21"/>
+<wire x1="1.105" y1="1.1825" x2="-1.105" y2="1.1825" width="0.127" layer="21"/>
+<wire x1="-1.105" y1="-1.1825" x2="1.105" y2="-1.1825" width="0.127" layer="21"/>
 <wire x1="1.85" y1="-0.8" x2="-1.85" y2="-0.8" width="0.12" layer="51"/>
 <wire x1="-1.85" y1="-0.8" x2="-1.85" y2="0.8" width="0.12" layer="51"/>
 <wire x1="-1.85" y1="0.8" x2="1.85" y2="0.8" width="0.12" layer="51"/>
@@ -2264,11 +2264,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.8175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF2014" urn="urn:adsk.eagle:footprint:16378535/1" library_version="4">
+<package name="RESMELF2014" urn="urn:adsk.eagle:footprint:16378535/2" library_version="5">
 <description>MELF, 2.00 mm length, 1.40 mm diameter
 &lt;p&gt;MELF Resistor package with 2.00 mm length and 1.40 mm diameter&lt;/p&gt;</description>
-<wire x1="0.5189" y1="1.114" x2="-0.5189" y2="1.114" width="0.12" layer="21"/>
-<wire x1="-0.5189" y1="-1.114" x2="0.5189" y2="-1.114" width="0.12" layer="21"/>
+<wire x1="0.5189" y1="1.114" x2="-0.5189" y2="1.114" width="0.127" layer="21"/>
+<wire x1="-0.5189" y1="-1.114" x2="0.5189" y2="-1.114" width="0.127" layer="21"/>
 <wire x1="1.05" y1="-0.725" x2="-1.05" y2="-0.725" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="-0.725" x2="-1.05" y2="0.725" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="0.725" x2="1.05" y2="0.725" width="0.12" layer="51"/>
@@ -2278,11 +2278,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.749" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF5924" urn="urn:adsk.eagle:footprint:16378541/1" library_version="4">
+<package name="RESMELF5924" urn="urn:adsk.eagle:footprint:16378541/2" library_version="5">
 <description>MELF, 5.90 mm length, 2.45 mm diameter
 &lt;p&gt;MELF Resistor package with 5.90 mm length and 2.45 mm diameter&lt;/p&gt;</description>
-<wire x1="2.1315" y1="1.639" x2="-2.1315" y2="1.639" width="0.12" layer="21"/>
-<wire x1="-2.1315" y1="-1.639" x2="2.1315" y2="-1.639" width="0.12" layer="21"/>
+<wire x1="2.1315" y1="1.639" x2="-2.1315" y2="1.639" width="0.127" layer="21"/>
+<wire x1="-2.1315" y1="-1.639" x2="2.1315" y2="-1.639" width="0.127" layer="21"/>
 <wire x1="3.05" y1="-1.25" x2="-3.05" y2="-1.25" width="0.12" layer="51"/>
 <wire x1="-3.05" y1="-1.25" x2="-3.05" y2="1.25" width="0.12" layer="51"/>
 <wire x1="-3.05" y1="1.25" x2="3.05" y2="1.25" width="0.12" layer="51"/>
@@ -2292,11 +2292,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.274" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.274" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF3218" urn="urn:adsk.eagle:footprint:16378531/1" library_version="4">
+<package name="RESMELF3218" urn="urn:adsk.eagle:footprint:16378531/2" library_version="5">
 <description>MELF, 3.20 mm length, 1.80 mm diameter
 &lt;p&gt;MELF Resistor package with 3.20 mm length and 1.80 mm diameter&lt;/p&gt;</description>
-<wire x1="0.8815" y1="1.314" x2="-0.8815" y2="1.314" width="0.12" layer="21"/>
-<wire x1="-0.8815" y1="-1.314" x2="0.8815" y2="-1.314" width="0.12" layer="21"/>
+<wire x1="0.8815" y1="1.314" x2="-0.8815" y2="1.314" width="0.127" layer="21"/>
+<wire x1="-0.8815" y1="-1.314" x2="0.8815" y2="-1.314" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-0.925" x2="-1.7" y2="-0.925" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="-0.925" x2="-1.7" y2="0.925" width="0.12" layer="51"/>
 <wire x1="-1.7" y1="0.925" x2="1.7" y2="0.925" width="0.12" layer="51"/>
@@ -2306,15 +2306,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.949" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESAD724W46L381D178B" urn="urn:adsk.eagle:footprint:16378530/1" library_version="4">
+<package name="RESAD724W46L381D178B" urn="urn:adsk.eagle:footprint:16378530/2" library_version="5">
 <description>Axial Resistor, 7.24 mm pitch, 3.81 mm body length, 1.78 mm body diameter
 &lt;p&gt;Axial Resistor package with 7.24 mm pitch (lead spacing), 0.46 mm lead diameter, 3.81 mm body length and 1.78 mm body diameter&lt;/p&gt;</description>
-<wire x1="-2.16" y1="1.015" x2="-2.16" y2="-1.015" width="0.12" layer="21"/>
-<wire x1="-2.16" y1="-1.015" x2="2.16" y2="-1.015" width="0.12" layer="21"/>
-<wire x1="2.16" y1="-1.015" x2="2.16" y2="1.015" width="0.12" layer="21"/>
-<wire x1="2.16" y1="1.015" x2="-2.16" y2="1.015" width="0.12" layer="21"/>
-<wire x1="-2.16" y1="0" x2="-2.736" y2="0" width="0.12" layer="21"/>
-<wire x1="2.16" y1="0" x2="2.736" y2="0" width="0.12" layer="21"/>
+<wire x1="-2.16" y1="1.015" x2="-2.16" y2="-1.015" width="0.127" layer="21"/>
+<wire x1="-2.16" y1="-1.015" x2="2.16" y2="-1.015" width="0.127" layer="21"/>
+<wire x1="2.16" y1="-1.015" x2="2.16" y2="1.015" width="0.127" layer="21"/>
+<wire x1="2.16" y1="1.015" x2="-2.16" y2="1.015" width="0.127" layer="21"/>
+<wire x1="-2.16" y1="0" x2="-2.736" y2="0" width="0.127" layer="21"/>
+<wire x1="2.16" y1="0" x2="2.736" y2="0" width="0.127" layer="21"/>
 <wire x1="2.16" y1="-1.015" x2="-2.16" y2="-1.015" width="0.12" layer="51"/>
 <wire x1="-2.16" y1="-1.015" x2="-2.16" y2="1.015" width="0.12" layer="51"/>
 <wire x1="-2.16" y1="1.015" x2="2.16" y2="1.015" width="0.12" layer="51"/>
@@ -2326,91 +2326,91 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="RESC1005X40" urn="urn:adsk.eagle:package:16378568/1" type="model" library_version="4">
-<description>Chip, 1.05 X 0.54 X 0.40 mm body
-&lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESC1005X40"/>
-</packageinstances>
-</package3d>
-<package3d name="RESC1608X60" urn="urn:adsk.eagle:package:16378565/1" type="model" library_version="4">
-<description>Chip, 1.60 X 0.82 X 0.60 mm body
-&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESC1608X60"/>
-</packageinstances>
-</package3d>
-<package3d name="RESC2012X65" urn="urn:adsk.eagle:package:16378559/1" type="model" library_version="4">
+<package3d name="RESC2012X65" urn="urn:adsk.eagle:package:16378559/2" type="model" library_version="5">
 <description>Chip, 2.00 X 1.25 X 0.65 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 0.65 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC2012X65"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC3216X70" urn="urn:adsk.eagle:package:16378566/1" type="model" library_version="4">
+<package3d name="RESC1005X40" urn="urn:adsk.eagle:package:16378568/2" type="model" library_version="5">
+<description>Chip, 1.05 X 0.54 X 0.40 mm body
+&lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X40"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1608X60" urn="urn:adsk.eagle:package:16378565/2" type="model" library_version="5">
+<description>Chip, 1.60 X 0.82 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1608X60"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC3216X70" urn="urn:adsk.eagle:package:16378566/2" type="model" library_version="5">
 <description>Chip, 3.20 X 1.60 X 0.70 mm body
 &lt;p&gt;Chip package with body size 3.20 X 1.60 X 0.70 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC3216X70"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC3224X71" urn="urn:adsk.eagle:package:16378563/2" type="model" library_version="4">
+<package3d name="RESC3224X71" urn="urn:adsk.eagle:package:16378563/3" type="model" library_version="5">
 <description>Chip, 3.20 X 2.49 X 0.71 mm body
 &lt;p&gt;Chip package with body size 3.20 X 2.49 X 0.71 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC3224X71"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC5025X71" urn="urn:adsk.eagle:package:16378564/1" type="model" library_version="4">
+<package3d name="RESC5025X71" urn="urn:adsk.eagle:package:16378564/2" type="model" library_version="5">
 <description>Chip, 5.00 X 2.50 X 0.71 mm body
 &lt;p&gt;Chip package with body size 5.00 X 2.50 X 0.71 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC5025X71"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC6332X71" urn="urn:adsk.eagle:package:16378557/1" type="model" library_version="4">
+<package3d name="RESC6332X71L" urn="urn:adsk.eagle:package:16378557/3" type="model" library_version="5">
 <description>Chip, 6.30 X 3.20 X 0.71 mm body
 &lt;p&gt;Chip package with body size 6.30 X 3.20 X 0.71 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC6332X71"/>
 </packageinstances>
 </package3d>
-<package3d name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:package:16378560/1" type="model" library_version="4">
+<package3d name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:package:16378560/2" type="model" library_version="5">
 <description>AXIAL Resistor, 11.76 mm pitch, 8.5 mm body length, 2.5 mm body diameter
 &lt;p&gt;AXIAL Resistor package with 11.76 mm pitch, 0.63 mm lead diameter, 8.5 mm body length and 2.5 mm body diameter&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESAD1176W63L850D250B"/>
 </packageinstances>
 </package3d>
-<package3d name="RESMELF3515" urn="urn:adsk.eagle:package:16378562/1" type="model" library_version="4">
+<package3d name="RESMELF3515" urn="urn:adsk.eagle:package:16378562/2" type="model" library_version="5">
 <description>MELF, 3.50 mm length, 1.52 mm diameter
 &lt;p&gt;MELF Resistor package with 3.50 mm length and 1.52 mm diameter&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESMELF3515"/>
 </packageinstances>
 </package3d>
-<package3d name="RESMELF2014" urn="urn:adsk.eagle:package:16378558/1" type="model" library_version="4">
+<package3d name="RESMELF2014" urn="urn:adsk.eagle:package:16378558/2" type="model" library_version="5">
 <description>MELF, 2.00 mm length, 1.40 mm diameter
 &lt;p&gt;MELF Resistor package with 2.00 mm length and 1.40 mm diameter&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESMELF2014"/>
 </packageinstances>
 </package3d>
-<package3d name="RESMELF5924" urn="urn:adsk.eagle:package:16378567/1" type="model" library_version="4">
+<package3d name="RESMELF5924" urn="urn:adsk.eagle:package:16378567/3" type="model" library_version="5">
 <description>MELF, 5.90 mm length, 2.45 mm diameter
 &lt;p&gt;MELF Resistor package with 5.90 mm length and 2.45 mm diameter&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESMELF5924"/>
 </packageinstances>
 </package3d>
-<package3d name="RESMELF3218" urn="urn:adsk.eagle:package:16378556/1" type="model" library_version="4">
+<package3d name="RESMELF3218" urn="urn:adsk.eagle:package:16378556/2" type="model" library_version="5">
 <description>MELF, 3.20 mm length, 1.80 mm diameter
 &lt;p&gt;MELF Resistor package with 3.20 mm length and 1.80 mm diameter&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESMELF3218"/>
 </packageinstances>
 </package3d>
-<package3d name="RESAD724W46L381D178B" urn="urn:adsk.eagle:package:16378561/1" type="model" library_version="4">
+<package3d name="RESAD724W46L381D178B" urn="urn:adsk.eagle:package:16378561/2" type="model" library_version="5">
 <description>Axial Resistor, 7.24 mm pitch, 3.81 mm body length, 1.78 mm body diameter
 &lt;p&gt;Axial Resistor package with 7.24 mm pitch (lead spacing), 0.46 mm lead diameter, 3.81 mm body length and 1.78 mm body diameter&lt;/p&gt;</description>
 <packageinstances>
@@ -2419,7 +2419,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="R-US" urn="urn:adsk.eagle:symbol:16378528/1" library_version="4">
+<symbol name="R-US" urn="urn:adsk.eagle:symbol:16378528/2" library_version="5">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
@@ -2429,14 +2429,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="2.7686" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-3.302" size="1.778" layer="96" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-US" urn="urn:adsk.eagle:component:16378569/3" prefix="R" uservalue="yes" library_version="4">
+<deviceset name="R-US" urn="urn:adsk.eagle:component:16378569/4" prefix="R" uservalue="yes" library_version="5">
 <description>&lt;B&gt;Resistor Fixed - ANSI</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -2448,7 +2448,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378568/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378568/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2474,7 +2474,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378565/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378565/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2500,7 +2500,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378559/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378559/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2526,7 +2526,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378566/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378566/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2552,7 +2552,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378563/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378563/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2578,7 +2578,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378564/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378564/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2604,7 +2604,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378557/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378557/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2630,7 +2630,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378560/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378560/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2656,7 +2656,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378562/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378562/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2682,7 +2682,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378558/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378558/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2708,7 +2708,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378567/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378567/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2734,7 +2734,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378556/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378556/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2760,7 +2760,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378561/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378561/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_">
@@ -2790,6 +2790,240 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="CLX6F-FKC-CKNNQDGBB7A363">
+<packages>
+<package name="SOJ100P350X290-6N">
+<wire x1="-0.6" y1="1.7" x2="0.6" y2="1.7" width="0.2" layer="21"/>
+<wire x1="0.6" y1="1.7" x2="0.6" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="0.6" y1="-1.7" x2="-0.6" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-1.7" x2="-0.6" y2="1.7" width="0.2" layer="21"/>
+<circle x="-1.5" y="2.1" radius="0.22360625" width="0.2" layer="21"/>
+<circle x="-1.5" y="2.1" radius="0.14141875" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="2" x2="2.45" y2="2" width="0.05" layer="39"/>
+<wire x1="2.45" y1="2" x2="2.45" y2="-2" width="0.05" layer="39"/>
+<wire x1="2.45" y1="-2" x2="-2.45" y2="-2" width="0.05" layer="39"/>
+<wire x1="-2.45" y1="-2" x2="-2.45" y2="2" width="0.05" layer="39"/>
+<polygon width="0.05" layer="21">
+<vertex x="-0.6" y="1.7"/>
+<vertex x="-0.1" y="1.6"/>
+<vertex x="-0.6" y="1.2"/>
+</polygon>
+<text x="-0.700153125" y="2.600559375" size="1.27028125" layer="25">&gt;NAME</text>
+<text x="-2.201709375" y="-3.50271875" size="1.270990625" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.55" y="1" dx="1.25" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="-1.55" y="0" dx="1.25" dy="0.8" layer="1" roundness="100"/>
+<smd name="3" x="-1.55" y="-1" dx="1.25" dy="0.8" layer="1" roundness="100"/>
+<smd name="4" x="1.55" y="-1" dx="1.25" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="5" x="1.55" y="0" dx="1.25" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="6" x="1.55" y="1" dx="1.25" dy="0.8" layer="1" roundness="100" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CLX6F-FKC-CKNNQDGBB7A363">
+<wire x1="2.54" y1="3.556" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.604" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.604" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="3.556" width="0.254" layer="94"/>
+<wire x1="0" y1="3.556" x2="0" y2="6.604" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.524" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.604" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.556" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-6.604" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.604" x2="0" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0.25449375" y="-3.053940625" size="0.814384375" layer="94">RED</text>
+<text x="0.254034375" y="2.03228125" size="0.8129125" layer="94">GREEN</text>
+<text x="0.2542" y="7.117609375" size="0.813440625" layer="94">BLUE</text>
+<text x="-1.77881875" y="9.148240625" size="1.270590625" layer="95">&gt;NAME</text>
+<text x="-2.54115" y="-10.1646" size="1.27056875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CLX6F-FKC-CKNNQDGBB7A363" prefix="D">
+<description>LED Tri-Color Blue/Green/Red 470nm/527nm/630nm Automotive 6-Pin PLCC T/R</description>
+<gates>
+<gate name="G$1" symbol="CLX6F-FKC-CKNNQDGBB7A363" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOJ100P350X290-6N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue _RGB_ 622nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.1V Red, 2.7V Green, 3V Blue 6-SMD, J-Lead "/>
+<attribute name="MF" value="Cree Inc."/>
+<attribute name="MP" value="CLX6F-FKC-CKNNQDGBB7A363"/>
+<attribute name="PACKAGE" value="PLCC-6 Cree"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="5051102491">
+<description>&lt;CONN FFC/FPC BOTTOM 24P .5MM R/A&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="5051102491">
+<description>&lt;b&gt;5051102491-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-5.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-5.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-4.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-4.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-3.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-3.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-2.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-2.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-1.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-1.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="-0.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-0.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="0.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="0.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="1.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="1.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="2.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="2.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="3.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="3.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="4.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="4.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="5.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="5.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="8.05" y="0" dx="2" dy="1.3" layer="1"/>
+<smd name="26" x="-8.05" y="0" dx="2" dy="1.3" layer="1"/>
+<text x="0" y="0.2" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0.2" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-8.35" y1="2.5" x2="8.35" y2="2.5" width="0.2" layer="51"/>
+<wire x1="8.35" y1="2.5" x2="8.35" y2="-2.8" width="0.2" layer="51"/>
+<wire x1="8.35" y1="-2.8" x2="-8.35" y2="-2.8" width="0.2" layer="51"/>
+<wire x1="-8.35" y1="-2.8" x2="-8.35" y2="2.5" width="0.2" layer="51"/>
+<wire x1="-10.05" y1="4.2" x2="10.05" y2="4.2" width="0.1" layer="51"/>
+<wire x1="10.05" y1="4.2" x2="10.05" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="10.05" y1="-3.8" x2="-10.05" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-10.05" y1="-3.8" x2="-10.05" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-8.35" y1="1" x2="-8.35" y2="2.5" width="0.1" layer="21"/>
+<wire x1="-8.35" y1="2.5" x2="-7" y2="2.5" width="0.1" layer="21"/>
+<wire x1="-8.35" y1="-1" x2="-8.35" y2="-2.8" width="0.1" layer="21"/>
+<wire x1="-8.35" y1="-2.8" x2="8.35" y2="-2.8" width="0.1" layer="21"/>
+<wire x1="8.35" y1="-2.8" x2="8.35" y2="-1" width="0.1" layer="21"/>
+<wire x1="7" y1="2.5" x2="8.35" y2="2.5" width="0.1" layer="21"/>
+<wire x1="8.35" y1="2.5" x2="8.35" y2="1" width="0.1" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="5051102491">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-60.96" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-60.96" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="2" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="3" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="4" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="5" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="6" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="7" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="8" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="9" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="10" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="11" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="12" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="13" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="14" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="15" x="22.86" y="-35.56" length="middle" rot="R180"/>
+<pin name="16" x="22.86" y="-38.1" length="middle" rot="R180"/>
+<pin name="17" x="22.86" y="-40.64" length="middle" rot="R180"/>
+<pin name="18" x="22.86" y="-43.18" length="middle" rot="R180"/>
+<pin name="19" x="22.86" y="-45.72" length="middle" rot="R180"/>
+<pin name="20" x="22.86" y="-48.26" length="middle" rot="R180"/>
+<pin name="21" x="22.86" y="-50.8" length="middle" rot="R180"/>
+<pin name="22" x="22.86" y="-53.34" length="middle" rot="R180"/>
+<pin name="23" x="22.86" y="-55.88" length="middle" rot="R180"/>
+<pin name="24" x="22.86" y="-58.42" length="middle" rot="R180"/>
+<pin name="25" x="0" y="-2.54" length="middle"/>
+<pin name="26" x="0" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5051102491" prefix="J">
+<description>&lt;b&gt;CONN FFC/FPC BOTTOM 24P .5MM R/A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/5051102491_FFC_FPC_CONNECTORS.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="5051102491" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5051102491">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="CONN FFC/FPC BOTTOM 24P .5MM R/A" constant="no"/>
+<attribute name="HEIGHT" value="4.06mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5051102491" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2804,8 +3038,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="PS1" library="P78E03-1000" deviceset="P78E03-1000" device=""/>
 <part name="A1" library="ESP32-WROVER-I" deviceset="ESP32-WROVER-I" device=""/>
 <part name="U$1" library="MPU-6500" deviceset="MPU6500" device=""/>
-<part name="D1" library="WL-SMCW" deviceset="WL-SMCW" device="-150060GS75000-G"/>
-<part name="LS1" library="PS1240P02BT" deviceset="PS1240P02BT" device=""/>
+<part name="PWR-INDICATOR" library="WL-SMCW" deviceset="WL-SMCW" device="-150060GS75000-G"/>
+<part name="BUZZER" library="PS1240P02BT" deviceset="PS1240P02BT" device=""/>
 <part name="U$2" library="CustomBattery" deviceset="LARGE_BATTERY" device=""/>
 <part name="IC1" library="TESEO-LIV3R" deviceset="TESEO-LIV3R" device=""/>
 <part name="U$3" library="SD-106M" deviceset="SD-106M" device=""/>
@@ -2814,10 +3048,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
-<part name="R1" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/1" technology="_"/>
-<part name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/1" technology="_"/>
-<part name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/1" technology="_"/>
-<part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/1" technology="_"/>
+<part name="R1" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_"/>
+<part name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_"/>
+<part name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_"/>
+<part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_"/>
+<part name="D2" library="CLX6F-FKC-CKNNQDGBB7A363" deviceset="CLX6F-FKC-CKNNQDGBB7A363" device=""/>
+<part name="J1" library="5051102491" deviceset="5051102491" device=""/>
+<part name="LEDR" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_"/>
+<part name="LEDG" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_"/>
+<part name="LEDB" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_"/>
+<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
+<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
+<part name="IND" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_"/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
+<part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
+<part name="R2" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_"/>
+<part name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_"/>
+<part name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_"/>
 </parts>
 <sheets>
 <sheet>
@@ -2836,30 +3085,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="10.1291" y="73.7339" size="1.782309375" layer="95"/>
 <attribute name="VALUE" x="10.124" y="10.0698" size="1.78303125" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="106.68" y="30.48" smashed="yes"/>
-<instance part="D1" gate="G$1" x="96.52" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="97.808" y="-2.632" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="97.748" y="8.068" size="1.27" layer="96" rot="R180"/>
+<instance part="U$1" gate="G$1" x="160.02" y="27.94" smashed="yes"/>
+<instance part="PWR-INDICATOR" gate="G$1" x="0" y="-55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.288" y="-61.052" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1.228" y="-50.352" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="LS1" gate="G$1" x="68.58" y="15.24" smashed="yes">
-<attribute name="NAME" x="64.77" y="19.05" size="1.778" layer="95"/>
-<attribute name="VALUE" x="64.77" y="10.16" size="1.778" layer="96"/>
+<instance part="BUZZER" gate="G$1" x="-2.54" y="-71.12" smashed="yes">
+<attribute name="NAME" x="-6.35" y="-67.31" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-6.35" y="-76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="U$2" gate="G$1" x="43.18" y="109.22" smashed="yes"/>
-<instance part="IC1" gate="G$1" x="177.8" y="48.26" smashed="yes">
-<attribute name="NAME" x="214.63" y="55.88" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="214.63" y="53.34" size="1.778" layer="96" align="center-left"/>
+<instance part="IC1" gate="G$1" x="231.14" y="45.72" smashed="yes">
+<attribute name="NAME" x="267.97" y="53.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="267.97" y="50.8" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="U$3" gate="G$1" x="58.42" y="-40.64" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="149.86" y="33.02" smashed="yes" rot="R180"/>
-<instance part="GND" gate="G$1" x="99.06" y="68.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="99.06" y="70.358" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+<instance part="U$4" gate="G$1" x="203.2" y="30.48" smashed="yes" rot="R180"/>
+<instance part="GND" gate="G$1" x="152.4" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="152.4" y="67.818" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
 </instance>
-<instance part="GND2" gate="G$1" x="111.76" y="68.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="111.76" y="70.358" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+<instance part="GND2" gate="G$1" x="165.1" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="165.1" y="67.818" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
 </instance>
-<instance part="GND1" gate="G$1" x="58.42" y="68.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="58.42" y="70.358" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+<instance part="GND1" gate="G$1" x="111.76" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="111.76" y="67.818" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
 </instance>
 <instance part="GND3" gate="G$1" x="38.1" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="38.1" y="-50.038" size="1.778" layer="96" align="top-center" display="off"/>
@@ -2868,17 +3117,71 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="36.6014" y="-41.91" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="41.402" y="-41.91" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="58.42" y="60.96" smashed="yes">
-<attribute name="NAME" x="60.96" y="63.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.96" y="60.96" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="111.76" y="58.42" smashed="yes">
+<attribute name="NAME" x="114.3" y="60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="114.3" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="99.06" y="60.96" smashed="yes">
-<attribute name="NAME" x="101.6" y="63.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="101.6" y="60.96" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="152.4" y="58.42" smashed="yes">
+<attribute name="NAME" x="154.94" y="60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.94" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="111.76" y="60.96" smashed="yes">
-<attribute name="NAME" x="114.3" y="63.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="60.96" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="165.1" y="58.42" smashed="yes">
+<attribute name="NAME" x="167.64" y="60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="G$1" x="-7.62" y="-25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="-5.84118125" y="-34.548240625" size="1.270590625" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-5.07885" y="-15.2354" size="1.27056875" layer="96" rot="R180"/>
+</instance>
+<instance part="J1" gate="G$1" x="99.06" y="15.24" smashed="yes">
+<attribute name="NAME" x="118.11" y="22.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="118.11" y="20.32" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LEDR" gate="G$1" x="0" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-1.4986" y="-16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="3.302" y="-16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LEDG" gate="G$1" x="7.62" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.1214" y="-16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="10.922" y="-16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LEDB" gate="G$1" x="15.24" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.7414" y="-16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.542" y="-16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND4" gate="G$1" x="0" y="-2.54" smashed="yes" rot="R180">
+<attribute name="VALUE" x="0" y="-0.762" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+</instance>
+<instance part="GND5" gate="G$1" x="7.62" y="-2.54" smashed="yes" rot="R180">
+<attribute name="VALUE" x="7.62" y="-0.762" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+</instance>
+<instance part="GND6" gate="G$1" x="15.24" y="-2.54" smashed="yes" rot="R180">
+<attribute name="VALUE" x="15.24" y="-0.762" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+</instance>
+<instance part="IND" gate="G$1" x="7.62" y="-48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.1214" y="-52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="10.922" y="-52.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND7" gate="G$1" x="7.62" y="-38.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="7.62" y="-36.322" size="1.778" layer="96" rot="R180" align="top-center" display="off"/>
+</instance>
+<instance part="GND8" gate="G$1" x="10.16" y="-71.12" smashed="yes" rot="R90">
+<attribute name="VALUE" x="11.938" y="-71.12" size="1.778" layer="96" rot="R90" align="top-center" display="off"/>
+</instance>
+<instance part="GND9" gate="G$1" x="142.24" y="-43.18" smashed="yes">
+<attribute name="VALUE" x="142.24" y="-44.958" size="1.778" layer="96" align="top-center" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="132.08" y="-25.4" smashed="yes">
+<attribute name="NAME" x="132.08" y="-22.6314" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="132.08" y="-28.702" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C4" gate="G$1" x="129.54" y="-2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="127" y="0" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="129.54" y="0" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="134.62" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="132.08" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="134.62" y="-15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -2887,8 +3190,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="96.52" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<label x="101.6" y="50.8" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
+<label x="154.94" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND/-VOUT"/>
@@ -2902,18 +3205,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="218.44" y1="27.94" x2="220.98" y2="27.94" width="0.1524" layer="91"/>
-<label x="220.98" y="27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="271.78" y1="25.4" x2="274.32" y2="25.4" width="0.1524" layer="91"/>
+<label x="274.32" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="GND@1"/>
-<wire x1="154.94" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
-<label x="157.48" y="27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="208.28" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
+<label x="210.82" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="GND@2"/>
-<wire x1="124.46" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
-<label x="121.92" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="177.8" y1="25.4" x2="175.26" y2="25.4" width="0.1524" layer="91"/>
+<label x="175.26" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -2921,23 +3224,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="111.76" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="63.5" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="60.96" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND" gate="G$1" pin="3.3V"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="63.5" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="60.96" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="G$1" pin="3.3V"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="RESV/GND"/>
-<wire x1="60.96" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<label x="58.42" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
+<label x="111.76" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="G$1" pin="3.3V"/>
-<wire x1="58.42" y1="63.5" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="60.96" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -2947,13 +3250,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND_RF_1"/>
-<wire x1="177.8" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
-<label x="175.26" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
+<label x="228.6" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND_RF_2"/>
-<wire x1="177.8" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="175.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
+<label x="228.6" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VSS1"/>
@@ -2980,6 +3283,62 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND3" gate="G$1" pin="3.3V"/>
 <wire x1="38.1" y1="-43.18" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="LEDR" gate="G$1" pin="2"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="LEDG" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="LEDB" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="IND" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="-43.18" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="BUZZER" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="-71.12" x2="7.62" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="26"/>
+<wire x1="99.06" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<label x="96.52" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="25"/>
+<wire x1="99.06" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
+<label x="96.52" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="142.24" y1="-2.54" x2="142.24" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="G$1" pin="3.3V"/>
+<pinref part="J1" gate="G$1" pin="23"/>
+<wire x1="142.24" y1="-7.62" x2="142.24" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-17.78" x2="142.24" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-25.4" x2="142.24" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-40.64" x2="142.24" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="142.24" y="-40.64"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="-25.4" x2="142.24" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="142.24" y="-25.4"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="-17.78" x2="142.24" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="142.24" y="-17.78"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="-2.54" x2="142.24" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="121.92" y1="-7.62" x2="142.24" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="142.24" y="-7.62"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -2994,35 +3353,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="96.52" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
-<label x="101.6" y="55.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
+<label x="154.94" y="53.34" size="1.778" layer="95" xref="yes"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<junction x="99.06" y="55.88"/>
+<wire x1="152.4" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<junction x="152.4" y="53.34"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDDIO"/>
-<wire x1="96.52" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="53.34" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
-<junction x="111.76" y="53.34"/>
-<label x="114.3" y="53.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="50.8" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="50.8" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="50.8" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
+<junction x="165.1" y="50.8"/>
+<label x="167.64" y="50.8" size="1.778" layer="95" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CS"/>
-<wire x1="96.52" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
-<label x="101.6" y="40.64" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="38.1" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
+<label x="154.94" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="218.44" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
-<label x="220.98" y="45.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="271.78" y1="43.18" x2="274.32" y2="43.18" width="0.1524" layer="91"/>
+<label x="274.32" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC_IO"/>
-<wire x1="218.44" y1="43.18" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
-<label x="220.98" y="43.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="271.78" y1="40.64" x2="274.32" y2="40.64" width="0.1524" layer="91"/>
+<label x="274.32" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VDD"/>
@@ -3057,27 +3416,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="AD0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="AD0/SDO"/>
-<wire x1="96.52" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<label x="101.6" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
+<label x="154.94" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="REGOUT"/>
-<wire x1="60.96" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SDA/SDI"/>
-<wire x1="96.52" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
-<label x="101.6" y="45.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
+<label x="154.94" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDA"/>
-<wire x1="177.8" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
-<label x="175.26" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="30.48" x2="228.6" y2="30.48" width="0.1524" layer="91"/>
+<label x="228.6" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="A1" gate="G$1" pin="IO21"/>
@@ -3088,13 +3447,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="SCL" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCL/SCLK"/>
-<wire x1="96.52" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
-<label x="101.6" y="43.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="149.86" y1="40.64" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
+<label x="154.94" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
-<wire x1="177.8" y1="30.48" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
-<label x="175.26" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="27.94" x2="228.6" y2="27.94" width="0.1524" layer="91"/>
+<label x="228.6" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="A1" gate="G$1" pin="IO22"/>
@@ -3105,21 +3464,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="FSYNC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="FSYNC"/>
-<wire x1="60.96" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<label x="58.42" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<label x="111.76" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SIN" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="RF_IN"/>
-<wire x1="177.8" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
-<label x="167.64" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="43.18" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
+<label x="220.98" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="SIN"/>
-<wire x1="139.7" y1="38.1" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<label x="147.32" y="45.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="193.04" y1="35.56" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="200.66" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DAT0" class="0">
@@ -3178,6 +3537,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$3" gate="G$1" pin="CMD"/>
 <wire x1="53.34" y1="-10.16" x2="50.8" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="3"/>
+<pinref part="LEDR" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="0" y1="-20.32" x2="0" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="2"/>
+<pinref part="LEDG" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="-25.4" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-25.4" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="1"/>
+<pinref part="LEDB" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="-30.48" x2="15.24" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-30.48" x2="15.24" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="PWR-INDICATOR" gate="G$1" pin="-"/>
+<pinref part="IND" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="-55.88" x2="7.62" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-55.88" x2="7.62" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="17"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-25.4" x2="127" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="14"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-17.78" x2="132.08" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
