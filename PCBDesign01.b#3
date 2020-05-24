@@ -2227,6 +2227,7 @@ design rules under a new name.</description>
 <element name="U$20" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-711.2" smashed="yes"/>
 <element name="U$21" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-254" y="-711.2" smashed="yes"/>
 <element name="U$22" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-736.6" smashed="yes"/>
+<element name="U$23" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-762" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2692,11 +2693,13 @@ design rules under a new name.</description>
 <contactref element="U$8" pad="B@1"/>
 <contactref element="U$8" pad="B"/>
 <contactref element="C11" pad="2"/>
+<contactref element="U$23" pad="0"/>
 <wire x1="-261.2695" y1="-304.8" x2="-258.2046" y2="-312.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-260.35" y1="-283.9" x2="-261.2695" y2="-304.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-254" y1="-283.9" x2="-260.35" y2="-283.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-254" y1="-269.875" x2="-254" y2="-283.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-78.66" y1="24.77" x2="-254" y2="-269.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-279.4" y1="-762" x2="-258.2046" y2="-312.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DVP_Y4">
 <contactref element="R8" pad="2"/>

@@ -2228,6 +2228,10 @@ design rules under a new name.</description>
 <element name="U$21" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-254" y="-711.2" smashed="yes"/>
 <element name="U$22" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-736.6" smashed="yes"/>
 <element name="U$23" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-762" smashed="yes"/>
+<element name="U$24" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-787.4" smashed="yes"/>
+<element name="U$25" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-254" y="-787.4" smashed="yes"/>
+<element name="U$26" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-812.8" smashed="yes"/>
+<element name="U$27" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-254" y="-812.8" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2287,11 +2291,11 @@ design rules under a new name.</description>
 <contactref element="U4" pad="16"/>
 <contactref element="U4" pad="9"/>
 <contactref element="U$1" pad="20"/>
-<contactref element="U$14" pad="0"/>
 <contactref element="U$19" pad="0"/>
+<contactref element="U$22" pad="0"/>
+<contactref element="U$14" pad="0"/>
 <contactref element="U$20" pad="0"/>
 <contactref element="U$21" pad="0"/>
-<contactref element="U$22" pad="0"/>
 <wire x1="-251.46" y1="-255.905" x2="-252.73" y2="-255.905" width="0" layer="19" extent="1-1"/>
 <wire x1="-250.19" y1="-255.905" x2="-251.46" y2="-255.905" width="0" layer="19" extent="1-1"/>
 <wire x1="-248.92" y1="-255.905" x2="-250.19" y2="-255.905" width="0" layer="19" extent="1-1"/>
@@ -2768,18 +2772,26 @@ design rules under a new name.</description>
 <signal name="ESC_FR_OUT">
 <contactref element="U3" pad="4"/>
 <contactref element="FRONT-RIGHT" pad="3"/>
+<contactref element="U$24" pad="0"/>
 <wire x1="-251.46" y1="-381" x2="-256.921" y2="-482.2698" width="0" layer="19" extent="1-1"/>
+<wire x1="-279.4" y1="-787.4" x2="-256.921" y2="-482.2698" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESC_FL_OUT">
 <contactref element="U3" pad="5"/>
 <contactref element="FRONT-LEFT" pad="3"/>
+<contactref element="U$26" pad="0"/>
 <wire x1="-251.46" y1="-406.4" x2="-256.921" y2="-482.9302" width="0" layer="19" extent="1-1"/>
+<wire x1="-279.4" y1="-812.8" x2="-256.921" y2="-482.9302" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESC_BL_OUT">
 <contactref element="U3" pad="11"/>
+<contactref element="U$25" pad="0"/>
+<wire x1="-254" y1="-787.4" x2="-251.079" y2="-483.5652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESC_BR_OUT">
 <contactref element="U3" pad="13"/>
+<contactref element="U$27" pad="0"/>
+<wire x1="-254" y1="-812.8" x2="-251.079" y2="-482.2698" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U4" pad="5"/>

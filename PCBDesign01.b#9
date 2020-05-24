@@ -2182,38 +2182,6 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="-257.81" y="-342.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-260.35" y="-344.5591" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="R12" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="0" x="-260.35" y="-350.52" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-260.35" y="-348.8609" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-257.81" y="-350.52" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-260.35" y="-352.1791" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="R13" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="0" x="-260.35" y="-358.14" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-260.35" y="-356.4809" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-257.81" y="-358.14" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-260.35" y="-359.7991" size="1.27" layer="27" align="top-center"/>
-</element>
 <element name="FRONT-RIGHT" library="ESC" package="MA03-1" value="ESC" x="-254" y="-381" smashed="yes"/>
 <element name="FRONT-LEFT" library="ESC" package="MA03-1" value="ESC" x="-254" y="-406.4" smashed="yes"/>
 <element name="BACK-LEFT" library="ESC" package="MA03-1" value="ESC" x="-254" y="-431.8" smashed="yes"/>
@@ -2683,16 +2651,12 @@ design rules under a new name.</description>
 <signal name="PROGRAM_TX">
 <contactref element="U$7" pad="3"/>
 <contactref element="A1" pad="35"/>
-<contactref element="R13" pad="2"/>
-<wire x1="-252.73" y1="-269.875" x2="-259.4305" y2="-358.14" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.04" y1="23.5" x2="-252.73" y2="-269.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-252.73" y1="-269.875" x2="-61.04" y2="23.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PROGRAM_RX">
 <contactref element="U$7" pad="5"/>
 <contactref element="A1" pad="34"/>
-<contactref element="R12" pad="2"/>
-<wire x1="-251.46" y1="-269.875" x2="-259.4305" y2="-350.52" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.04" y1="22.23" x2="-251.46" y2="-269.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-251.46" y1="-269.875" x2="-61.04" y2="22.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PROGRAM_IO0">
 <contactref element="U$7" pad="6"/>
@@ -2753,13 +2717,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPS_RX">
 <contactref element="IC1" pad="3"/>
-<contactref element="R13" pad="1"/>
-<wire x1="-261.2695" y1="-358.14" x2="-154.01" y2="12.22" width="0" layer="19" extent="1-1"/>
+<contactref element="A1" pad="8"/>
+<wire x1="-78.66" y1="18.42" x2="-154.01" y2="12.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPS_TX">
 <contactref element="IC1" pad="2"/>
-<contactref element="R12" pad="1"/>
-<wire x1="-261.2695" y1="-350.52" x2="-152.91" y2="12.22" width="0" layer="19" extent="1-1"/>
+<contactref element="A1" pad="9"/>
+<wire x1="-78.66" y1="17.15" x2="-152.91" y2="12.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESC_FR">
 <contactref element="U3" pad="2"/>

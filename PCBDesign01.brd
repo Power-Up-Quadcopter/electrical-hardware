@@ -1827,7 +1827,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="-242.57" y="-66.04" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-242.57" y="-65.84" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LEDR" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="193" x="-248.92" y="-73.66" smashed="yes">
+<element name="LEDR" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="200" x="-248.92" y="-73.66" smashed="yes">
 <attribute name="CATEGORY" value="Resistor" x="-248.92" y="-73.66" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-248.92" y="-73.66" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-248.92" y="-73.66" size="1.778" layer="27" display="off"/>
@@ -1843,7 +1843,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="-248.92" y="-73.66" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-248.92" y="-75.3191" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="LEDG" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="230" x="-248.92" y="-78.74" smashed="yes">
+<element name="LEDG" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="226" x="-248.92" y="-78.74" smashed="yes">
 <attribute name="CATEGORY" value="Resistor" x="-248.92" y="-78.74" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-248.92" y="-78.74" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-248.92" y="-78.74" size="1.778" layer="27" display="off"/>
@@ -1875,7 +1875,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="-248.92" y="-83.82" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-248.92" y="-85.4791" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="87" x="-248.92" y="-91.44" smashed="yes">
+<element name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC2012X65" package3d_urn="urn:adsk.eagle:package:16378559/2" value="86.6" x="-248.92" y="-91.44" smashed="yes">
 <attribute name="CATEGORY" value="Resistor" x="-248.92" y="-91.44" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-248.92" y="-91.44" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-248.92" y="-91.44" size="1.778" layer="27" display="off"/>

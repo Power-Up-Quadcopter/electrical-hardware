@@ -4210,10 +4210,10 @@ Program Interface</text>
 <part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="10nF"/>
 <part name="D2" library="CLX6F-FKC-CKNNQDGBB7A363" deviceset="CLX6F-FKC-CKNNQDGBB7A363" device=""/>
 <part name="J1" library="5051102491" deviceset="5051102491" device=""/>
-<part name="LEDR" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="193"/>
-<part name="LEDG" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="230"/>
+<part name="LEDR" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="200"/>
+<part name="LEDG" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="226"/>
 <part name="LEDB" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="200"/>
-<part name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="87"/>
+<part name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="86.6"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -4397,8 +4397,8 @@ Do I actually need that resistor if I don't use it???</text>
 <attribute name="VALUE" x="-110.998" y="-11.43" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="-200.66" y="-40.64" smashed="yes">
-<attribute name="NAME" x="-204.47" y="-39.1414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-204.47" y="-43.942" size="1.778" layer="96"/>
+<attribute name="NAME" x="-202.692" y="-38.8874" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-203.708" y="-43.942" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="233.68" y="-25.4" smashed="yes">
 <attribute name="VALUE" x="231.775" y="-28.575" size="1.778" layer="96"/>
@@ -4431,10 +4431,10 @@ Do I actually need that resistor if I don't use it???</text>
 <attribute name="VALUE" x="208.661" y="-79.629" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY17" gate="GND" x="-193.04" y="-40.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-189.865" y="-42.545" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-191.135" y="-41.275" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY18" gate="GND" x="-129.54" y="-40.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-126.365" y="-42.545" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-127.635" y="-41.529" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY19" gate="GND" x="-121.92" y="2.54" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-120.015" y="5.715" size="1.778" layer="96" rot="R180"/>
@@ -4444,7 +4444,7 @@ Do I actually need that resistor if I don't use it???</text>
 </instance>
 <instance part="U$5" gate="G$1" x="-208.28" y="-10.16" smashed="yes"/>
 <instance part="SUPPLY21" gate="GND" x="-220.98" y="-17.78" smashed="yes">
-<attribute name="VALUE" x="-222.885" y="-20.955" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-223.647" y="-21.463" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="76.2" y="-66.04" smashed="yes" rot="R90">
 <attribute name="VALUE" x="76.835" y="-64.135" size="1.778" layer="96"/>

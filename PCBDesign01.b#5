@@ -1498,6 +1498,13 @@ waterclear,Size: 0603,</description>
 </package>
 </packages>
 </library>
+<library name="Test Point">
+<packages>
+<package name="TESTPOINT">
+<pad name="0" x="0" y="0" drill="1.5"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2206,6 +2213,10 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="-254" y="-508" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-254" y="-509.6591" size="1.27" layer="27" align="top-center"/>
 </element>
+<element name="U$9" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-533.4" smashed="yes"/>
+<element name="U$10" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-558.8" smashed="yes"/>
+<element name="U$11" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-279.4" y="-584.2" smashed="yes"/>
+<element name="U$12" library="Test Point" package="TESTPOINT" value="TESTPOINT" x="-254" y="-584.2" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2667,6 +2678,8 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="24"/>
 <contactref element="A1" pad="33"/>
 <contactref element="U4" pad="14"/>
+<contactref element="U$9" pad="0"/>
+<wire x1="-279.4" y1="-533.4" x2="-279.2" y2="-481.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-91.17" y1="12.975" x2="-279.2" y2="-481.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.04" y1="20.96" x2="-91.17" y2="12.975" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2674,6 +2687,8 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="23"/>
 <contactref element="A1" pad="36"/>
 <contactref element="U4" pad="13"/>
+<contactref element="U$10" pad="0"/>
+<wire x1="-279.4" y1="-558.8" x2="-278.8" y2="-481.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-90.77" y1="12.975" x2="-278.8" y2="-481.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.04" y1="24.77" x2="-90.77" y2="12.975" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2695,12 +2710,16 @@ design rules under a new name.</description>
 <signal name="GPS_RX">
 <contactref element="IC1" pad="3"/>
 <contactref element="A1" pad="8"/>
+<contactref element="U$11" pad="0"/>
 <wire x1="-78.66" y1="18.42" x2="-154.01" y2="12.22" width="0" layer="19" extent="1-1"/>
+<wire x1="-279.4" y1="-584.2" x2="-154.01" y2="12.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPS_TX">
 <contactref element="IC1" pad="2"/>
 <contactref element="A1" pad="9"/>
+<contactref element="U$12" pad="0"/>
 <wire x1="-78.66" y1="17.15" x2="-152.91" y2="12.22" width="0" layer="19" extent="1-1"/>
+<wire x1="-254" y1="-584.2" x2="-152.91" y2="12.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESC_FR">
 <contactref element="U3" pad="2"/>

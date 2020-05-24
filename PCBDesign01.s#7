@@ -4251,6 +4251,7 @@ Program Interface</text>
 <part name="R15" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="10k"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4560,6 +4561,9 @@ Do I actually need that resistor if I don't use it???</text>
 <instance part="SUPPLY37" gate="GND" x="-157.48" y="-137.16" smashed="yes">
 <attribute name="VALUE" x="-156.845" y="-144.145" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SUPPLY38" gate="GND" x="53.34" y="-106.68" smashed="yes" rot="R270">
+<attribute name="VALUE" x="46.355" y="-107.315" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4577,11 +4581,6 @@ Do I actually need that resistor if I don't use it???</text>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="RESV/GND"/>
-<wire x1="55.88" y1="-106.68" x2="53.34" y2="-106.68" width="0.1524" layer="91"/>
-<label x="53.34" y="-106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VSS1"/>
@@ -4802,6 +4801,10 @@ Do I actually need that resistor if I don't use it???</text>
 <segment>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <pinref part="U4" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY38" gate="GND" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="RESV/GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">

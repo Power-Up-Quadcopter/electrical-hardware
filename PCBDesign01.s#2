@@ -4295,6 +4295,11 @@ Program Interface</text>
 <part name="U$21" library="Test Point" deviceset="TESTPOINT" device=""/>
 <part name="U$22" library="Test Point" deviceset="TESTPOINT" device=""/>
 <part name="U$23" library="Test Point" deviceset="TESTPOINT" device=""/>
+<part name="U$24" library="Test Point" deviceset="TESTPOINT" device=""/>
+<part name="U$25" library="Test Point" deviceset="TESTPOINT" device=""/>
+<part name="U$26" library="Test Point" deviceset="TESTPOINT" device=""/>
+<part name="U$27" library="Test Point" deviceset="TESTPOINT" device=""/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4327,9 +4332,9 @@ Vf = 2V
 <text x="149.86" y="-33.02" size="1.778" layer="91">Antenna Connector</text>
 <text x="0" y="101.6" size="5.08" layer="94">ESP32-WROVER-IB</text>
 <text x="152.4" y="88.9" size="5.08" layer="94">ESP-PROG INTERFACE</text>
-<text x="-43.18" y="-124.46" size="1.778" layer="91">Logic Level Shifter</text>
-<text x="-53.34" y="-58.42" size="1.778" layer="91">Connects to 3-pin housing of ESC signal connector</text>
-<text x="-35.56" y="-10.16" size="5.08" layer="94">ESC</text>
+<text x="-50.8" y="-121.92" size="1.778" layer="91">Logic Level Shifter</text>
+<text x="-60.96" y="-58.42" size="1.778" layer="91">Connects to 3-pin housing of ESC signal connector</text>
+<text x="-43.18" y="-10.16" size="5.08" layer="94">ESC</text>
 <text x="-157.48" y="-116.84" size="1.778" layer="91">Interrupt output, open-drain, requires an
 external pull-up resistor to Vcc
 Do I actually need that resistor if I don't use it???</text>
@@ -4567,21 +4572,21 @@ Do I actually need that resistor if I don't use it???</text>
 <attribute name="NAME" x="13.97" y="46.7614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="43.942" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FRONT-RIGHT" gate="A" x="-71.12" y="-35.56" smashed="yes">
-<attribute name="NAME" x="-71.12" y="-20.066" size="1.27" layer="94"/>
+<instance part="FRONT-RIGHT" gate="A" x="-78.74" y="-35.56" smashed="yes">
+<attribute name="NAME" x="-78.74" y="-20.066" size="1.27" layer="94"/>
 </instance>
-<instance part="FRONT-LEFT" gate="A" x="-71.12" y="-55.88" smashed="yes">
-<attribute name="NAME" x="-71.12" y="-40.386" size="1.27" layer="94"/>
+<instance part="FRONT-LEFT" gate="A" x="-78.74" y="-55.88" smashed="yes">
+<attribute name="NAME" x="-78.74" y="-40.386" size="1.27" layer="94"/>
 </instance>
-<instance part="BACK-LEFT" gate="A" x="10.414" y="-35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.414" y="-20.066" size="1.27" layer="94" rot="MR0"/>
+<instance part="BACK-LEFT" gate="A" x="2.794" y="-35.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.794" y="-20.066" size="1.27" layer="94" rot="MR0"/>
 </instance>
-<instance part="BACK-RIGHT" gate="A" x="10.414" y="-55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.414" y="-40.386" size="1.27" layer="94" rot="MR0"/>
+<instance part="BACK-RIGHT" gate="A" x="2.794" y="-55.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.794" y="-40.386" size="1.27" layer="94" rot="MR0"/>
 </instance>
-<instance part="U3" gate="A" x="-50.8" y="-76.2" smashed="yes"/>
-<instance part="SUPPLY3" gate="GND" x="-55.88" y="-114.3" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-53.975" y="-111.125" size="1.778" layer="96" rot="R180"/>
+<instance part="U3" gate="A" x="-58.42" y="-76.2" smashed="yes"/>
+<instance part="SUPPLY3" gate="GND" x="-63.5" y="-114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-61.595" y="-111.125" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U4" gate="G$1" x="-180.34" y="-119.38" smashed="yes">
 <attribute name="NAME" x="-198.1412" y="-100.5776" size="2.085290625" layer="95" ratio="10" rot="SR0"/>
@@ -4604,17 +4609,24 @@ Do I actually need that resistor if I don't use it???</text>
 <instance part="U$10" gate="A" x="40.64" y="-93.98" smashed="yes"/>
 <instance part="U$11" gate="A" x="248.92" y="-10.16" smashed="yes"/>
 <instance part="U$12" gate="A" x="256.54" y="-10.16" smashed="yes"/>
-<instance part="U$13" gate="A" x="-109.22" y="109.22" smashed="yes"/>
+<instance part="U$13" gate="A" x="-109.22" y="111.76" smashed="yes"/>
 <instance part="U$14" gate="A" x="-101.6" y="86.36" smashed="yes"/>
-<instance part="U$15" gate="A" x="-86.36" y="109.22" smashed="yes"/>
-<instance part="U$16" gate="A" x="-78.74" y="109.22" smashed="yes"/>
-<instance part="U$17" gate="A" x="-101.6" y="109.22" smashed="yes"/>
-<instance part="U$18" gate="A" x="-93.98" y="109.22" smashed="yes"/>
+<instance part="U$15" gate="A" x="-93.98" y="111.76" smashed="yes"/>
+<instance part="U$16" gate="A" x="-101.6" y="111.76" smashed="yes"/>
+<instance part="U$17" gate="A" x="-78.74" y="111.76" smashed="yes"/>
+<instance part="U$18" gate="A" x="-86.36" y="111.76" smashed="yes"/>
 <instance part="U$19" gate="A" x="-109.22" y="86.36" smashed="yes"/>
 <instance part="U$20" gate="A" x="-86.36" y="86.36" smashed="yes"/>
 <instance part="U$21" gate="A" x="-93.98" y="86.36" smashed="yes"/>
 <instance part="U$22" gate="A" x="-78.74" y="86.36" smashed="yes"/>
 <instance part="U$23" gate="A" x="106.68" y="93.98" smashed="yes"/>
+<instance part="U$24" gate="A" x="-17.78" y="-91.44" smashed="yes"/>
+<instance part="U$25" gate="A" x="-2.54" y="-91.44" smashed="yes"/>
+<instance part="U$26" gate="A" x="-10.16" y="-91.44" smashed="yes"/>
+<instance part="U$27" gate="A" x="5.08" y="-91.44" smashed="yes"/>
+<instance part="SUPPLY16" gate="GND" x="-93.98" y="76.2" smashed="yes">
+<attribute name="VALUE" x="-95.885" y="73.025" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4825,20 +4837,20 @@ Do I actually need that resistor if I don't use it???</text>
 <segment>
 <pinref part="FRONT-RIGHT" gate="A" pin="GND"/>
 <pinref part="BACK-LEFT" gate="A" pin="GND"/>
-<wire x1="-55.88" y1="-27.94" x2="-27.94" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-27.94"/>
-<wire x1="-27.94" y1="-27.94" x2="-4.826" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-27.94" x2="-35.56" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-35.56" y="-27.94"/>
+<wire x1="-35.56" y1="-27.94" x2="-12.446" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="FRONT-LEFT" gate="A" pin="GND"/>
 <pinref part="BACK-RIGHT" gate="A" pin="GND"/>
-<wire x1="-55.88" y1="-48.26" x2="-27.94" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-48.26"/>
-<wire x1="-27.94" y1="-48.26" x2="-4.826" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-27.94" x2="-27.94" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-27.94" y="-27.94" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-63.5" y1="-48.26" x2="-35.56" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-35.56" y="-48.26"/>
+<wire x1="-35.56" y1="-48.26" x2="-12.446" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-27.94" x2="-35.56" y2="-48.26" width="0.1524" layer="91"/>
+<label x="-35.56" y="-27.94" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VSS"/>
-<wire x1="-50.8" y1="-114.3" x2="-53.34" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-114.3" x2="-60.96" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -4854,29 +4866,19 @@ Do I actually need that resistor if I don't use it???</text>
 <pinref part="U$1" gate="G$1" pin="RESV/GND"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="A" pin="0"/>
-<wire x1="-101.6" y1="78.74" x2="-101.6" y2="76.2" width="0.1524" layer="91"/>
-<label x="-101.6" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$19" gate="A" pin="0"/>
-<wire x1="-109.22" y1="78.74" x2="-109.22" y2="76.2" width="0.1524" layer="91"/>
-<label x="-109.22" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$20" gate="A" pin="0"/>
-<wire x1="-86.36" y1="78.74" x2="-86.36" y2="76.2" width="0.1524" layer="91"/>
-<label x="-86.36" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$21" gate="A" pin="0"/>
-<wire x1="-93.98" y1="78.74" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
-<label x="-93.98" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$22" gate="A" pin="0"/>
-<wire x1="-78.74" y1="78.74" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
-<label x="-78.74" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-109.22" y1="78.74" x2="-101.6" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U$14" gate="A" pin="0"/>
+<wire x1="-101.6" y1="78.74" x2="-93.98" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-101.6" y="78.74"/>
+<pinref part="U$20" gate="A" pin="0"/>
+<wire x1="-93.98" y1="78.74" x2="-86.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="78.74" x2="-78.74" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-86.36" y="78.74"/>
+<pinref part="U$21" gate="A" pin="0"/>
+<junction x="-93.98" y="78.74"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -4990,8 +4992,8 @@ Do I actually need that resistor if I don't use it???</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VCC"/>
-<wire x1="-50.8" y1="-76.2" x2="-53.34" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-53.34" y="-76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-76.2" x2="-60.96" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-60.96" y="-76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -5006,8 +5008,8 @@ Do I actually need that resistor if I don't use it???</text>
 </segment>
 <segment>
 <pinref part="U$15" gate="A" pin="0"/>
-<wire x1="-86.36" y1="101.6" x2="-86.36" y2="99.06" width="0.1524" layer="91"/>
-<label x="-86.36" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-93.98" y1="104.14" x2="-93.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="-93.98" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5024,42 +5026,42 @@ Do I actually need that resistor if I don't use it???</text>
 <segment>
 <pinref part="FRONT-RIGHT" gate="A" pin="5V"/>
 <pinref part="BACK-LEFT" gate="A" pin="5V"/>
-<wire x1="-55.88" y1="-22.86" x2="-31.75" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-22.86" x2="-39.37" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="FRONT-LEFT" gate="A" pin="5V"/>
 <pinref part="BACK-RIGHT" gate="A" pin="5V"/>
-<wire x1="-31.75" y1="-22.86" x2="-4.826" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-43.18" x2="-31.75" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-31.75" y1="-43.18" x2="-4.826" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-31.75" y1="-22.86" x2="-31.75" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-31.75" y="-43.18"/>
-<junction x="-31.75" y="-22.86"/>
-<label x="-31.75" y="-22.606" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-39.37" y1="-22.86" x2="-12.446" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-43.18" x2="-39.37" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-39.37" y1="-43.18" x2="-12.446" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-39.37" y1="-22.86" x2="-39.37" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-39.37" y="-43.18"/>
+<junction x="-39.37" y="-22.86"/>
+<label x="-39.37" y="-22.606" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VDD"/>
-<wire x1="-50.8" y1="-78.74" x2="-53.34" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-53.34" y="-78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-78.74" x2="-60.96" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-60.96" y="-78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A"/>
-<wire x1="-50.8" y1="-96.52" x2="-53.34" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-53.34" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-96.52" x2="-60.96" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-60.96" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U3" gate="A" pin="D"/>
-<wire x1="-50.8" y1="-104.14" x2="-53.34" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-96.52" x2="-53.34" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-104.14" x2="-60.96" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-96.52" x2="-60.96" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="B"/>
-<wire x1="-53.34" y1="-99.06" x2="-53.34" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-101.6" x2="-53.34" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="-99.06" x2="-53.34" y2="-99.06" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-99.06"/>
+<wire x1="-60.96" y1="-99.06" x2="-60.96" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-101.6" x2="-60.96" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-99.06" x2="-60.96" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-99.06"/>
 <pinref part="U3" gate="A" pin="C"/>
-<wire x1="-50.8" y1="-101.6" x2="-53.34" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-101.6"/>
+<wire x1="-58.42" y1="-101.6" x2="-60.96" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-101.6"/>
 </segment>
 <segment>
 <pinref part="U$16" gate="A" pin="0"/>
-<wire x1="-78.74" y1="101.6" x2="-78.74" y2="99.06" width="0.1524" layer="91"/>
-<label x="-78.74" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-101.6" y1="104.14" x2="-101.6" y2="101.6" width="0.1524" layer="91"/>
+<label x="-101.6" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -5080,8 +5082,8 @@ Do I actually need that resistor if I don't use it???</text>
 </segment>
 <segment>
 <pinref part="U$13" gate="A" pin="0"/>
-<wire x1="-109.22" y1="101.6" x2="-109.22" y2="99.06" width="0.1524" layer="91"/>
-<label x="-109.22" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-109.22" y1="104.14" x2="-109.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="-109.22" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5480,8 +5482,8 @@ Do I actually need that resistor if I don't use it???</text>
 </segment>
 <segment>
 <pinref part="U$17" gate="A" pin="0"/>
-<wire x1="-101.6" y1="101.6" x2="-101.6" y2="99.06" width="0.1524" layer="91"/>
-<label x="-101.6" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-78.74" y1="104.14" x2="-78.74" y2="101.6" width="0.1524" layer="91"/>
+<label x="-78.74" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="2.8V" class="0">
@@ -5502,8 +5504,8 @@ Do I actually need that resistor if I don't use it???</text>
 </segment>
 <segment>
 <pinref part="U$18" gate="A" pin="0"/>
-<wire x1="-93.98" y1="101.6" x2="-93.98" y2="99.06" width="0.1524" layer="91"/>
-<label x="-93.98" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-86.36" y1="104.14" x2="-86.36" y2="101.6" width="0.1524" layer="91"/>
+<label x="-86.36" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5822,83 +5824,103 @@ Do I actually need that resistor if I don't use it???</text>
 <net name="ESC_FR" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="ENABLE_A"/>
-<wire x1="-50.8" y1="-83.82" x2="-53.34" y2="-83.82" width="0.1524" layer="91"/>
-<label x="-53.34" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-83.82" x2="-60.96" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-60.96" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESC_FL" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="ENABLE_B"/>
-<wire x1="-50.8" y1="-86.36" x2="-53.34" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-53.34" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-86.36" x2="-60.96" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-60.96" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESCL_BL" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="ENABLE_C"/>
-<wire x1="-50.8" y1="-88.9" x2="-53.34" y2="-88.9" width="0.1524" layer="91"/>
-<label x="-53.34" y="-88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-88.9" x2="-60.96" y2="-88.9" width="0.1524" layer="91"/>
+<label x="-60.96" y="-88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESC_BR" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="ENABLE_D"/>
-<wire x1="-50.8" y1="-91.44" x2="-53.34" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-53.34" y="-91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-58.42" y1="-91.44" x2="-60.96" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-60.96" y="-91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESC_FR_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="E"/>
-<wire x1="-10.16" y1="-76.2" x2="-7.62" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-7.62" y="-76.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="-17.78" y1="-76.2" x2="-15.24" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-15.24" y="-76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="-33.02" x2="-53.34" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-33.02" x2="-60.96" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="FRONT-RIGHT" gate="A" pin="SIG"/>
-<label x="-53.34" y="-33.02" size="1.778" layer="95" xref="yes"/>
+<label x="-60.96" y="-33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="A" pin="0"/>
+<wire x1="-17.78" y1="-99.06" x2="-17.78" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-17.78" y="-101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="ESC_FL_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="F"/>
-<wire x1="-10.16" y1="-78.74" x2="-7.62" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-7.62" y="-78.74" size="1.778" layer="95" xref="yes"/>
+<wire x1="-17.78" y1="-78.74" x2="-15.24" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-15.24" y="-78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="FRONT-LEFT" gate="A" pin="SIG"/>
-<wire x1="-55.88" y1="-53.34" x2="-53.34" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-53.34" y="-53.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="-63.5" y1="-53.34" x2="-60.96" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-60.96" y="-53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$26" gate="A" pin="0"/>
+<wire x1="-10.16" y1="-99.06" x2="-10.16" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-10.16" y="-101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="ESC_BL_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="G"/>
-<wire x1="-10.16" y1="-81.28" x2="-7.62" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-7.62" y="-81.28" size="1.778" layer="95" xref="yes"/>
+<wire x1="-17.78" y1="-81.28" x2="-15.24" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-15.24" y="-81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-5.08" y1="-33.02" x2="-7.62" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-7.62" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-12.7" y1="-33.02" x2="-15.24" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-15.24" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$25" gate="A" pin="0"/>
+<wire x1="-2.54" y1="-99.06" x2="-2.54" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-2.54" y="-101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="ESC_BR_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="H"/>
-<wire x1="-10.16" y1="-83.82" x2="-7.62" y2="-83.82" width="0.1524" layer="91"/>
-<label x="-7.62" y="-83.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="-17.78" y1="-83.82" x2="-15.24" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-15.24" y="-83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-5.08" y1="-53.34" x2="-7.62" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-7.62" y="-53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-12.7" y1="-53.34" x2="-15.24" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-15.24" y="-53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$27" gate="A" pin="0"/>
+<wire x1="5.08" y1="-99.06" x2="5.08" y2="-101.6" width="0.1524" layer="91"/>
+<label x="5.08" y="-101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="-78.74" y1="-12.7" x2="-78.74" y2="-127" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-127" x2="20.32" y2="-127" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-127" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-12.7" x2="-78.74" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-12.7" x2="-86.36" y2="-127" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-127" x2="12.7" y2="-127" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-127" x2="12.7" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-12.7" x2="-86.36" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
