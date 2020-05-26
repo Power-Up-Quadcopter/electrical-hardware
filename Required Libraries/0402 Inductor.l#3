@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,27 +73,6 @@
 </layers>
 <library>
 <packages>
-<package name="SPL06-007">
-<wire x1="14.1" y1="-11.649990625" x2="14.1" y2="-13.750009375" width="0.025" layer="21"/>
-<wire x1="11.3" y1="-13.750009375" x2="11.3" y2="-11.650040625" width="0.025" layer="21"/>
-<circle x="11.192" y="-11.29995" radius="0.14148125" width="0.025" layer="21"/>
-<wire x1="12.849990625" y1="-11.725" x2="13.2" y2="-11.725" width="0.025" layer="1"/>
-<wire x1="13.2" y1="-11.725" x2="13.2" y2="-12.22501875" width="0.025" layer="1"/>
-<wire x1="13.2" y1="-12.22501875" x2="12.849990625" y2="-12.22501875" width="0.025" layer="1"/>
-<wire x1="12.849990625" y1="-12.22501875" x2="12.849990625" y2="-11.725" width="0.025" layer="1"/>
-<wire x1="12.2" y1="-11.725" x2="12.550009375" y2="-11.725" width="0.025" layer="1"/>
-<wire x1="12.550009375" y1="-11.725" x2="12.550009375" y2="-12.22501875" width="0.025" layer="1"/>
-<wire x1="12.550009375" y1="-12.22501875" x2="12.2" y2="-12.22501875" width="0.025" layer="1"/>
-<wire x1="12.2" y1="-12.22501875" x2="12.2" y2="-11.725" width="0.025" layer="1"/>
-<smd name="1" x="11.724865625" y="-11.72773125" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="2" x="12.374284375" y="-11.714459375" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="3" x="13.021940625" y="-11.722084375" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="4" x="13.674225" y="-11.9770875" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="5" x="11.724803125" y="-13.167440625" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="6" x="12.37518125" y="-13.167440625" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="7" x="13.02555625" y="-13.177609375" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="8" x="13.67485625" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-</package>
 </packages>
 <symbols>
 </symbols>

@@ -102,9 +102,22 @@
 <pin name="GND@2" x="25.4" y="7.62" length="middle" rot="R180"/>
 <pin name="VDDIO" x="25.4" y="5.08" length="middle" rot="R180"/>
 <pin name="SDO" x="25.4" y="2.54" length="middle" rot="R180"/>
+<text x="0" y="-1.27" size="0.6096" layer="94" font="vector">SPL06-007</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="SPL06-007">
+<gates>
+<gate name="A" symbol="SPL06-007" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

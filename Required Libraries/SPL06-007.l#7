@@ -85,9 +85,12 @@
 <smd name="6" x="12.37518125" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
 <smd name="7" x="13.02555625" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
 <smd name="8" x="13.67485625" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<text x="11.366828125" y="-12.934215625" size="0.6096" layer="21" font="vector">+</text>
 </package>
 </packages>
 <symbols>
+<symbol name="SPL06-007">
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>
