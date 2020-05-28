@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjFmN2Q2" projecturn="a.cGVyc29uYWw6dWUyYjFmN2Q2IzIwMjAwNTIzMzAwOTIxNzMx" f3durn="urn:adsk.wipprod:dm.lineage:HeyrHMn0TTmH03yaAaDqmA" pcbguid="0f952e93-821c-4508-b7b1-ef4f3182660d" lastpulledtime="" lastsyncedchangeguid="018fcc9c-9e79-7ed9-2759-be5a5d59560b"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjFmN2Q2" projecturn="a.cGVyc29uYWw6dWUyYjFmN2Q2IzIwMjAwNTIzMzAwOTIxNzMx" f3durn="urn:adsk.wipprod:dm.lineage:HeyrHMn0TTmH03yaAaDqmA" pcbguid="0f952e93-821c-4508-b7b1-ef4f3182660d" lastpulledtime="" lastsyncedchangeguid="d08ea6ed-a452-0932-7f85-b98d329651a9"/>
 <plain>
 <circle x="22.3" y="18.684959375" radius="3.508" width="0.025" layer="20"/>
 <wire x1="50.8" y1="-24.495040625" x2="43.18" y2="-32.115040625" width="0.025" layer="20" curve="-90"/>
@@ -210,6 +210,7 @@
 <text x="-8.0873" y="54.883571875" size="0.6096" layer="21" rot="R90">&gt;</text>
 <text x="-5.010515625" y="54.874978125" size="0.6096" layer="21" rot="R90">&gt;</text>
 <text x="-1.93373125" y="54.883571875" size="0.6096" layer="21" rot="R90">&gt;</text>
+<text x="38.4196375" y="52.273478125" size="1.778" layer="21" rot="R90">RESET</text>
 </plain>
 <libraries>
 <library name="P78E03-1000">
