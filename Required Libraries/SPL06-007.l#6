@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -74,25 +74,69 @@
 <library>
 <packages>
 <package name="SPL06-007">
-<wire x1="14.1" y1="-11.649990625" x2="14.1" y2="-13.750009375" width="0.025" layer="21"/>
-<wire x1="11.3" y1="-13.750009375" x2="11.3" y2="-11.650040625" width="0.025" layer="21"/>
-<circle x="11.192" y="-11.29995" radius="0.14148125" width="0.025" layer="21"/>
-<smd name="1" x="11.724865625" y="-11.9770875" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="2" x="12.374284375" y="-11.9770875" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="3" x="13.021940625" y="-11.9770875" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="4" x="13.674225" y="-11.9770875" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="8" x="11.724803125" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="7" x="12.37518125" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="6" x="13.02555625" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<smd name="5" x="13.67485625" y="-13.426959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
-<text x="11.366828125" y="-12.934215625" size="0.6096" layer="21" font="vector">+</text>
+<wire x1="1.4" y1="1.050009375" x2="1.4" y2="-1.050009375" width="0.025" layer="21"/>
+<wire x1="-1.4" y1="-1.050009375" x2="-1.4" y2="1.049959375" width="0.025" layer="21"/>
+<circle x="-1.508" y="1.40005" radius="0.14148125" width="0.025" layer="21"/>
+<smd name="1" x="-0.975134375" y="0.7229125" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="2" x="-0.325715625" y="0.7229125" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="0.321940625" y="0.7229125" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="4" x="0.974225" y="0.7229125" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="8" x="-0.975196875" y="-0.726959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="7" x="-0.32481875" y="-0.726959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="6" x="0.32555625" y="-0.726959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="0.97485625" y="-0.726959375" dx="0.5" dy="0.35" layer="1" rot="R90"/>
+<text x="-1.333171875" y="-0.234215625" size="0.6096" layer="21" font="vector">+</text>
+<smd name="9" x="-0.97593125" y="1.290821875" dx="0.35" dy="0.635" layer="1"/>
+<smd name="10" x="-0.32649375" y="1.28875" dx="0.35" dy="0.635" layer="1"/>
+<smd name="11" x="0.32116875" y="1.290525" dx="0.35" dy="0.635" layer="1"/>
+<smd name="12" x="0.97415625" y="1.290525" dx="0.35" dy="0.635" layer="1"/>
+<smd name="13" x="0.974128125" y="-1.295096875" dx="0.35" dy="0.635" layer="1"/>
+<smd name="14" x="0.325203125" y="-1.287703125" dx="0.35" dy="0.635" layer="1"/>
+<smd name="15" x="-0.325203125" y="-1.29361875" dx="0.35" dy="0.635" layer="1"/>
+<smd name="16" x="-0.97560625" y="-1.286225" dx="0.35" dy="0.635" layer="1"/>
 </package>
 </packages>
 <symbols>
 <symbol name="SPL06-007">
+<wire x1="0" y1="12.7" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
+<pin name="GND@1" x="-5.08" y="10.16" length="middle"/>
+<pin name="CSB" x="-5.08" y="7.62" length="middle"/>
+<pin name="SDA" x="-5.08" y="5.08" length="middle"/>
+<pin name="SCK" x="-5.08" y="2.54" length="middle"/>
+<pin name="VDD" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@2" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="VDDIO" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="SDO" x="25.4" y="2.54" length="middle" rot="R180"/>
+<text x="-0.254" y="-2.794" size="1.778" layer="94" font="vector">SPL06-007</text>
+<text x="0.254" y="13.462" size="1.778" layer="94" font="vector">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="SPL06-007">
+<gates>
+<gate name="A" symbol="SPL06-007" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPL06-007">
+<connects>
+<connect gate="A" pin="CSB" pad="2"/>
+<connect gate="A" pin="GND@1" pad="1"/>
+<connect gate="A" pin="GND@2" pad="7"/>
+<connect gate="A" pin="SCK" pad="4"/>
+<connect gate="A" pin="SDA" pad="3"/>
+<connect gate="A" pin="SDO" pad="5"/>
+<connect gate="A" pin="VDD" pad="8"/>
+<connect gate="A" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
