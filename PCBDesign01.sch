@@ -2782,52 +2782,47 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/teseo-liv3r-1594843.p
 <description>&lt;CONN FFC/FPC BOTTOM 24P .5MM R/A&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="5051102491">
-<description>&lt;b&gt;5051102491-1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-5.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-5.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-4.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-4.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-3.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-3.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-2.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-2.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-1.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-1.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="-0.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="-0.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="0.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="0.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="1.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="1.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="2.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="2.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="3.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="3.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="4.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="22" x="4.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="23" x="5.25" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="24" x="5.75" y="2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="25" x="8.05" y="0" dx="2" dy="1.3" layer="1"/>
-<smd name="26" x="-8.05" y="0" dx="2" dy="1.3" layer="1"/>
-<text x="0" y="0.2" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0.2" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-8.35" y1="2.5" x2="8.35" y2="2.5" width="0.2" layer="51"/>
-<wire x1="8.35" y1="2.5" x2="8.35" y2="-2.8" width="0.2" layer="51"/>
-<wire x1="8.35" y1="-2.8" x2="-8.35" y2="-2.8" width="0.2" layer="51"/>
-<wire x1="-8.35" y1="-2.8" x2="-8.35" y2="2.5" width="0.2" layer="51"/>
-<wire x1="-10.05" y1="4.2" x2="10.05" y2="4.2" width="0.1" layer="51"/>
-<wire x1="10.05" y1="4.2" x2="10.05" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="10.05" y1="-3.8" x2="-10.05" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="-10.05" y1="-3.8" x2="-10.05" y2="4.2" width="0.1" layer="51"/>
-<wire x1="-8.35" y1="1" x2="-8.35" y2="2.5" width="0.1" layer="21"/>
-<wire x1="-8.35" y1="2.5" x2="-7" y2="2.5" width="0.1" layer="21"/>
-<wire x1="-8.35" y1="-1" x2="-8.35" y2="-2.8" width="0.1" layer="21"/>
-<wire x1="-8.35" y1="-2.8" x2="8.35" y2="-2.8" width="0.1" layer="21"/>
-<wire x1="8.35" y1="-2.8" x2="8.35" y2="-1" width="0.1" layer="21"/>
-<wire x1="7" y1="2.5" x2="8.35" y2="2.5" width="0.1" layer="21"/>
-<wire x1="8.35" y1="2.5" x2="8.35" y2="1" width="0.1" layer="21"/>
+<package name="687124149022">
+<description>WR-FPC 0.50mm SMT Horiz. Bot. Contact Hinge type WR-FPC 0.50mm 24pins Hinge type SMT Horizontal Bottom Contact</description>
+<wire x1="-8.05" y1="-6.25" x2="-8.05" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-8.05" y1="-0.65" x2="8.05" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="8.05" y1="-0.65" x2="8.05" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="8.05" y1="-6.25" x2="-8.05" y2="-6.25" width="0.127" layer="21"/>
+<text x="-3.83403125" y="-8.48693125" size="1.271340625" layer="27">&gt;VALUE</text>
+<text x="-3.555159375" y="1.74253125" size="1.27185" layer="25">&gt;NAME</text>
+<wire x1="-8.05" y1="-3.91" x2="-8.05" y2="-6.23" width="0.127" layer="21"/>
+<wire x1="8.05" y1="-3.89" x2="8.05" y2="-6.21" width="0.127" layer="21"/>
+<wire x1="-6.09" y1="-0.65" x2="-8.05" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-8.05" y1="-0.65" x2="-8.05" y2="-1.64" width="0.127" layer="21"/>
+<wire x1="6.13" y1="-0.65" x2="8.05" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="8.05" y1="-0.65" x2="8.05" y2="-1.64" width="0.127" layer="21"/>
+<circle x="-5.75" y="-1.02" radius="0.11" width="0.127" layer="21"/>
+<smd name="1" x="-5.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="2" x="-5.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="3" x="-4.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="4" x="-4.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="5" x="-3.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="6" x="-3.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="7" x="-2.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="8" x="-2.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="9" x="-1.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="10" x="-1.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="11" x="-0.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="12" x="-0.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="13" x="0.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="14" x="0.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="15" x="1.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="16" x="1.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="17" x="2.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="18" x="2.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="19" x="3.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="20" x="3.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="21" x="4.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="22" x="4.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="23" x="5.25" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="24" x="5.75" y="0" dx="0.3" dy="1.3" layer="1"/>
+<smd name="Z2" x="7.55" y="-2.75" dx="2" dy="1.8" layer="1"/>
+<smd name="Z1" x="-7.55" y="-2.75" dx="2" dy="1.8" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2874,7 +2869,7 @@ Source: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/505110249
 <gate name="G$1" symbol="5051102491" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="5051102491">
+<device name="ACTUAL" package="687124149022">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -2893,8 +2888,8 @@ Source: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/505110249
 <connect gate="G$1" pin="22" pad="22"/>
 <connect gate="G$1" pin="23" pad="23"/>
 <connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="25" pad="Z2"/>
+<connect gate="G$1" pin="26" pad="Z1"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
@@ -2904,16 +2899,7 @@ Source: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/505110249
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="CONN FFC/FPC BOTTOM 24P .5MM R/A" constant="no"/>
-<attribute name="HEIGHT" value="4.06mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5051102491" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4477,7 +4463,7 @@ Program Interface</text>
 <part name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="0.1uF"/>
 <part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="0.1uF"/>
 <part name="D2" library="CLX6F-FKC-CKNNQDGBB7A363" deviceset="CLX6F-FKC-CKNNQDGBB7A363" device=""/>
-<part name="J1" library="5051102491" deviceset="5051102491" device=""/>
+<part name="J1" library="5051102491" deviceset="5051102491" device="ACTUAL"/>
 <part name="LEDR" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="80.6"/>
 <part name="LEDG" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="60.4"/>
 <part name="LEDB" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R-US" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378559/2" technology="_" value="30"/>

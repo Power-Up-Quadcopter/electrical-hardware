@@ -2958,13 +2958,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <library name="TPS71913-28DRVR">
 <packages>
 <package name="DRV6_1P6X1">
-<smd name="1" x="-1.45" y="0.65" dx="1.5" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-1.45" y="0" dx="1.5" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-1.45" y="-0.65" dx="1.5" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="4" x="1.45" y="-0.65" dx="1.5" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="5" x="1.45" y="0" dx="1.5" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="6" x="1.45" y="0.65" dx="1.5" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="7" x="0" y="0" dx="0.5" dy="1.6002" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-1.45" y="0.65" dx="1.5" dy="0.3" layer="1" cream="no"/>
+<smd name="2" x="-1.45" y="0" dx="1.5" dy="0.3" layer="1" cream="no"/>
+<smd name="3" x="-1.45" y="-0.65" dx="1.5" dy="0.3" layer="1" cream="no"/>
+<smd name="4" x="1.45" y="-0.65" dx="1.5" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="1.45" y="0" dx="1.5" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="1.45" y="0.65" dx="1.5" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="7" x="0" y="0" dx="0.5" dy="1.6002" layer="1" cream="no"/>
 <wire x1="-1.4224" y1="-1.4224" x2="1.4224" y2="-1.4224" width="0.1524" layer="21"/>
 <wire x1="1.4224" y1="-1.4224" x2="1.4224" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="1.4224" y1="1.4224" x2="-1.4224" y2="1.4224" width="0.1524" layer="21"/>

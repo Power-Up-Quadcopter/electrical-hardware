@@ -213,8 +213,8 @@ Source: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/505110249
 <connect gate="G$1" pin="22" pad="22"/>
 <connect gate="G$1" pin="23" pad="23"/>
 <connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="Z2"/>
-<connect gate="G$1" pin="26" pad="Z1"/>
+<connect gate="G$1" pin="25" pad="Z1"/>
+<connect gate="G$1" pin="26" pad="Z2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>

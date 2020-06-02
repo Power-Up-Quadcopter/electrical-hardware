@@ -4971,7 +4971,7 @@ Vf = 2V
 <attribute name="VALUE" x="107.442" y="61.976" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U4" gate="G$1" x="-52.832" y="-22.352" smashed="yes">
-<attribute name="NAME" x="-65.532" y="3.048" size="1.778" layer="95"/>
+<attribute name="NAME" x="-65.532" y="3.302" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-65.532" y="-50.292" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="-78.232" y="-14.732" smashed="yes" rot="R180">
