@@ -93,8 +93,8 @@
 <wire x1="0.3048" y1="1.0668" x2="-1.0668" y2="1.0668" width="0.1524" layer="51"/>
 <wire x1="-1.0668" y1="1.0668" x2="-1.0668" y2="-1.0668" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.0668" x2="-0.3048" y2="1.0414" width="0.1524" layer="51" curve="-180"/>
-<pad name="8" x="0" y="0.381" drill="0.2794" diameter="0.5588"/>
-<pad name="9" x="0" y="-0.381" drill="0.2794" diameter="0.5588"/>
+<pad name="8" x="0" y="0.381" drill="0.2794" diameter="0.5588" stop="no"/>
+<pad name="9" x="0" y="-0.381" drill="0.2794" diameter="0.5588" stop="no"/>
 </package>
 </packages>
 <symbols>
