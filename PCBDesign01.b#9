@@ -3290,6 +3290,17 @@ design rules under a new name.</description>
 <wire x1="40.9356" y1="112.4398" x2="41.5" y2="111.8754" width="0.1524" layer="16"/>
 <wire x1="41.5" y1="111.8754" x2="41.5" y2="113" width="0.1524" layer="16"/>
 <via x="41.5" y="113" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="79.5" y="77.5"/>
+<vertex x="79.5" y="75.269690625"/>
+<vertex x="79.6263625" y="75.143328125"/>
+<vertex x="81.85865" y="75.143328125"/>
+<vertex x="81.997415625" y="75.28209375"/>
+<vertex x="81.997415625" y="77.4902375"/>
+<vertex x="81.89485" y="77.592803125"/>
+<vertex x="79.592803125" y="77.592803125"/>
+</polygon>
+<wire x1="81.7212" y1="78.038759375" x2="79.0762" y2="76.193759375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="FRONT-RIGHT" pad="2"/>
