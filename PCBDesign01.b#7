@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjFmN2Q2" projecturn="a.cGVyc29uYWw6dWUyYjFmN2Q2IzIwMjAwNTIzMzAwOTIxNzMx" f3durn="urn:adsk.wipprod:dm.lineage:HeyrHMn0TTmH03yaAaDqmA" pcbguid="0f952e93-821c-4508-b7b1-ef4f3182660d" lastpulledtime="" lastsyncedchangeguid="71541138-1f10-4af5-7f97-f7be8a8a38f3"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjFmN2Q2" projecturn="a.cGVyc29uYWw6dWUyYjFmN2Q2IzIwMjAwNTIzMzAwOTIxNzMx" f3durn="urn:adsk.wipprod:dm.lineage:HeyrHMn0TTmH03yaAaDqmA" pcbguid="0f952e93-821c-4508-b7b1-ef4f3182660d" lastpulledtime="" lastsyncedchangeguid="3131a9dd-5e7e-a399-b26b-105075591124"/>
 <plain>
 <circle x="103.0212" y="76.393759375" radius="3.508" width="0.025" layer="20"/>
 <wire x1="131.5212" y1="33.213759375" x2="123.9012" y2="25.593759375" width="0.025" layer="20" curve="-90"/>
@@ -457,6 +457,8 @@ Ryan McSweeney</text>
 <text x="34.7546" y="77.176434375" size="0.6096" layer="21" rot="R90">A6</text>
 <text x="34.7546" y="74.176434375" size="0.6096" layer="21" rot="R90">A7</text>
 <text x="126" y="76.393759375" size="1.778" layer="21" rot="R90" align="center">2020 POWER UP FIG QUADCOPTER</text>
+<text x="63.5" y="44.5" size="3.81" layer="22" rot="MR0" align="center">Class of 2023
+Zoom University</text>
 </plain>
 <libraries>
 <library name="P78E03-1000">
@@ -2638,20 +2640,20 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.1817" y="107.5" size="1.27" layer="28" rot="MR270" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="42.5" y="105.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC2012X110" package3d_urn="urn:adsk.eagle:package:16290897/2" value="1uF" x="34.409440625" y="107.961303125" smashed="yes" rot="MR90">
-<attribute name="CATEGORY" value="Capacitor" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="32.908859375" y="108.038696875" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PART_STATUS" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SERIES" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TYPE" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="32.727740625" y="107.961303125" size="1.27" layer="28" rot="MR90" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="34.409440625" y="109.961303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC2012X110" package3d_urn="urn:adsk.eagle:package:16290897/2" value="1uF" x="34.909440625" y="109.461303125" smashed="yes" rot="MR90">
+<attribute name="CATEGORY" value="Capacitor" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="33.408859375" y="109.538696875" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PART_STATUS" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SERIES" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TYPE" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="33.227740625" y="109.461303125" size="1.27" layer="28" rot="MR90" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="34.909440625" y="111.461303125" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3288,6 +3290,17 @@ design rules under a new name.</description>
 <wire x1="40.9356" y1="112.4398" x2="41.5" y2="111.8754" width="0.1524" layer="16"/>
 <wire x1="41.5" y1="111.8754" x2="41.5" y2="113" width="0.1524" layer="16"/>
 <via x="41.5" y="113" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="79.5" y="77.5"/>
+<vertex x="79.5" y="75.269690625"/>
+<vertex x="79.6263625" y="75.143328125"/>
+<vertex x="81.85865" y="75.143328125"/>
+<vertex x="81.997415625" y="75.28209375"/>
+<vertex x="81.997415625" y="77.4902375"/>
+<vertex x="81.89485" y="77.592803125"/>
+<vertex x="79.592803125" y="77.592803125"/>
+</polygon>
+<wire x1="81.7212" y1="78.038759375" x2="79.0762" y2="76.193759375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="FRONT-RIGHT" pad="2"/>
@@ -3798,8 +3811,8 @@ design rules under a new name.</description>
 <contactref element="U6" pad="5"/>
 <wire x1="36.28715" y1="108.65" x2="36.78715" y2="108.65" width="0.1524" layer="16"/>
 <wire x1="36.28715" y1="108.65" x2="33.7212" y2="106.08405" width="0.1524" layer="16"/>
-<wire x1="34.409440625" y1="107.085903125" x2="34.909440625" y2="107.085903125" width="0.1524" layer="16"/>
-<wire x1="34.909440625" y1="107.085903125" x2="36.4735375" y2="108.65" width="0.1524" layer="16"/>
+<wire x1="34.909440625" y1="108.585903125" x2="36.409440625" y2="108.585903125" width="0.1524" layer="16"/>
+<wire x1="36.409440625" y1="108.585903125" x2="36.4735375" y2="108.65" width="0.1524" layer="16"/>
 <wire x1="36.4735375" y1="108.65" x2="36.78715" y2="108.65" width="0.1524" layer="16"/>
 </signal>
 <signal name="2.8V">
@@ -4200,7 +4213,6 @@ design rules under a new name.</description>
 <wire x1="107.9912" y1="94.9388" x2="106.6812" y2="94.9388" width="0.1524" layer="16"/>
 <wire x1="79.0762" y1="75.793759375" x2="79.072834375" y2="75.79039375" width="0.1524" layer="1"/>
 <wire x1="79.072834375" y1="75.79039375" x2="78.5081125" y2="75.79039375" width="0.1524" layer="1"/>
-<wire x1="78.5081125" y1="75.79039375" x2="73.0362" y2="81.26230625" width="0.1524" layer="1"/>
 <wire x1="73.0362" y1="81.26230625" x2="73.0362" y2="88.783759375" width="0.1524" layer="1"/>
 <wire x1="48.9725125" y1="59.2088" x2="43.695425" y2="53.9317125" width="0.1524" layer="1"/>
 <wire x1="43.695425" y1="46.92733125" x2="43.695425" y2="53.9317125" width="0.1524" layer="1"/>
@@ -4228,6 +4240,8 @@ design rules under a new name.</description>
 <wire x1="92.755415625" y1="79.7088" x2="100.816428125" y2="71.6477875" width="0.1524" layer="1"/>
 <wire x1="91.9962125" y1="80.468003125" x2="92.755415625" y2="79.7088" width="0.1524" layer="1"/>
 <wire x1="78.597103125" y1="80.468003125" x2="91.9962125" y2="80.468003125" width="0.1524" layer="1"/>
+<wire x1="75.079134375" y1="78.239815625" x2="75.079134375" y2="79.219371875" width="0.1524" layer="1"/>
+<wire x1="75.079134375" y1="79.219371875" x2="73.0362" y2="81.26230625" width="0.1524" layer="1"/>
 </signal>
 <signal name="ANT">
 <contactref element="U$4" pad="2"/>
