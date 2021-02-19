@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjFmN2Q2" projecturn="a.cGVyc29uYWw6dWUyYjFmN2Q2IzIwMjAwNTIzMzAwOTIxNzMx" f3durn="urn:adsk.wipprod:dm.lineage:HeyrHMn0TTmH03yaAaDqmA" pcbguid="0f952e93-821c-4508-b7b1-ef4f3182660d" lastpulledtime="" lastsyncedchangeguid="592a657f-805a-f2ae-653f-4f5c1f28a3d3"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjFmN2Q2" projecturn="a.cGVyc29uYWw6dWUyYjFmN2Q2IzIwMjAwNTIzMzAwOTIxNzMx" f3durn="urn:adsk.wipprod:dm.lineage:HeyrHMn0TTmH03yaAaDqmA" pcbguid="0f952e93-821c-4508-b7b1-ef4f3182660d" lastpulledtime="" lastsyncedchangeguid="8e16afe3-fe2b-84f5-ed53-bb3f512a1f26"/>
 <plain>
 <circle x="103.0212" y="76.393759375" radius="3.508" width="0.025" layer="20"/>
 <wire x1="131.5212" y1="33.213759375" x2="123.9012" y2="25.593759375" width="0.025" layer="20" curve="-90"/>
@@ -4703,9 +4703,9 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFFFFFFFF"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>

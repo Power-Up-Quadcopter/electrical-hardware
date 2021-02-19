@@ -5930,6 +5930,11 @@ Vf = 2V
 <pinref part="C29" gate="G$1" pin="1"/>
 <junction x="-112.268" y="56.642"/>
 </segment>
+<segment>
+<wire x1="-112.268" y1="51.562" x2="-114.808" y2="51.562" width="0.1524" layer="91"/>
+<label x="-114.808" y="51.562" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U6" gate="A" pin="EN"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>

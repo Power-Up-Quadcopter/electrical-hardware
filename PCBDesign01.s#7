@@ -4850,7 +4850,7 @@ B: 3.0V</text>
 <text x="49.53" y="-69.85" size="1.778" layer="91">Power Indicator LED
 Vf = 2V
  I = 15mA</text>
-<text x="-134.62" y="33.02" size="1.778" layer="91">3.3V to 1.3V, 2.8V</text>
+<text x="-134.62" y="38.1" size="1.778" layer="91">3.3V to 1.3V, 2.8V</text>
 <text x="-200.66" y="91.44" size="1.778" layer="91">9.8V to 12.3V</text>
 <text x="-246.38" y="50.8" size="1.778" layer="91">VBat to 3.3V
 1000mA max</text>
@@ -4875,6 +4875,12 @@ Vf = 2V
 100mA max</text>
 <text x="80.01" y="-142.24" size="1.778" layer="91">I2C Address: 0011110</text>
 <text x="70.866" y="-99.06" size="5.08" layer="94">Magnetometer</text>
+<text x="-106.68" y="38.1" size="1.778" layer="91">MIC5365-1.3YC5-TR
+
+</text>
+<text x="-165.1" y="43.18" size="1.778" layer="91">MIC5504-2.8YM5-TR
+
+</text>
 </plain>
 <instances>
 <instance part="PS1" gate="G$1" x="-213.36" y="45.72" smashed="yes">
@@ -5912,6 +5918,10 @@ Vf = 2V
 <label x="-177.8" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="U5" gate="A" pin="VIN"/>
+<wire x1="-170.18" y1="68.58" x2="-172.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="68.58" x2="-172.72" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="EN"/>
+<wire x1="-172.72" y1="60.96" x2="-170.18" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="VIN"/>

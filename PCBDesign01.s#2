@@ -5914,14 +5914,16 @@ Vf = 2V
 <junction x="121.92" y="-121.92"/>
 </segment>
 <segment>
-<wire x1="-162.56" y1="63.5" x2="-170.18" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="63.5" x2="-165.1" y2="63.5" width="0.1524" layer="91"/>
 <label x="-170.18" y="63.5" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="U5" gate="A" pin="VIN"/>
+<wire x1="-165.1" y1="63.5" x2="-170.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="63.5" x2="-165.1" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="63.5" x2="-165.1" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U5" gate="A" pin="EN"/>
 <wire x1="-165.1" y1="55.88" x2="-162.56" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-165.1" y="63.5"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="VIN"/>
@@ -7001,26 +7003,13 @@ Vf = 2V
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,-182.88,40.64,PS1,+VOUT/GND,3.3V,,,"/>
-<approved hash="104,1,-182.88,35.56,PS1,GND/-VOUT,GND,,,"/>
 <approved hash="104,1,76.2,99.06,A1,VDD3V3,3.3V,,,"/>
 <approved hash="104,1,76.2,43.18,A1,EXP,GND,,,"/>
-<approved hash="104,1,-200.66,-114.3,U3,VCC,3.3V,,,"/>
-<approved hash="104,1,-200.66,-116.84,U3,VDD,5V,,,"/>
-<approved hash="202,1,-200.66,-147.32,U3,NC,,,,"/>
-<approved hash="104,1,-20.32,-5.08,U4,VDD,3.3V,,,"/>
-<approved hash="104,1,-20.32,-50.8,U4,VSS,GND,,,"/>
-<approved hash="105,1,-246.38,64.77,N$7,,,,,"/>
-<approved hash="105,1,102.87,-48.26,N$8,,,,,"/>
 <approved hash="105,1,180.34,-90.17,N$9,,,,,"/>
-<approved hash="105,1,-109.22,-106.68,N$10,,,,,"/>
 <approved hash="105,1,177.8,-11.43,N$11,,,,,"/>
 <approved hash="105,1,30.48,-7.62,N$12,,,,,"/>
 <approved hash="105,1,-45.72,72.39,N$13,,,,,"/>
-<approved hash="105,1,-233.68,-110.49,N$14,,,,,"/>
-<approved hash="105,1,-158.75,5.08,N$15,,,,,"/>
 <approved hash="105,1,190.5,38.1,N$16,,,,,"/>
-<approved hash="105,1,-96.52,-30.48,N$17,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -5706,6 +5706,7 @@ Vf = 2V
 <wire x1="-130.048" y1="82.042" x2="-122.428" y2="82.042" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="-130.048" y1="84.582" x2="-130.048" y2="82.042" width="0.1524" layer="91"/>
+<junction x="-130.048" y="82.042"/>
 </segment>
 <segment>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
